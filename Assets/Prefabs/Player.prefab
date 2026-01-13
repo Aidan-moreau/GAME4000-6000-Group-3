@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 4144482101120266733}
   - component: {fileID: 6879404950323905027}
   - component: {fileID: 1352808265773554655}
-  - component: {fileID: 6427841250443298928}
   - component: {fileID: 449513959073867371}
+  - component: {fileID: 3313950439790724053}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 10}
-  m_LocalScale: {x: 0.8, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -86,7 +86,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Sprite: {fileID: 1544977667909174819, guid: c7dc42ea7df74224f98545a0beb15a2c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -156,7 +156,37 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 3c08dd8f18f7ec342997b68eed308fe7, type: 2}
---- !u!60 &6427841250443298928
+--- !u!114 &449513959073867371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5554851241892482283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
+  m_Actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: Keyboard&Mouse
+  m_DefaultActionMap: Player
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!60 &3313950439790724053
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,8 +223,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.28866667}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.18, y: 0.24}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -202,38 +232,50 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.5918214}
-      - {x: 0, y: 0.5918214}
-      - {x: -0.5, y: -0.28866667}
-      - {x: 0.5011827, y: -0.28866667}
+    - - {x: 0.07591641, y: 0.0858163}
+      - {x: 0.044661686, y: 0.08538131}
+      - {x: 0.043359134, y: 0.0760053}
+      - {x: 0.03448523, y: 0.07544543}
+      - {x: 0.033177346, y: 0.025836485}
+      - {x: 0.025560325, y: 0.025569223}
+      - {x: 0.02564002, y: 0.05640268}
+      - {x: 0.016146846, y: 0.056405902}
+      - {x: 0.015697176, y: 0.07410421}
+      - {x: 0.015733723, y: 0.07423544}
+      - {x: 0.015856652, y: 0.0743018}
+      - {x: 0.016117597, y: 0.07488793}
+      - {x: 0.016231224, y: 0.07544735}
+      - {x: 0.01626262, y: 0.11695017}
+      - {x: -0.016955245, y: 0.11690878}
+      - {x: -0.017491138, y: 0.07721181}
+      - {x: -0.016477779, y: 0.05601326}
+      - {x: -0.025707765, y: 0.05453}
+      - {x: -0.026135758, y: 0.025371186}
+      - {x: -0.03375704, y: 0.024422616}
+      - {x: -0.033945616, y: 0.075896025}
+      - {x: -0.044468276, y: 0.07579961}
+      - {x: -0.04510104, y: 0.086415105}
+      - {x: -0.073894225, y: 0.086145}
+      - {x: -0.07636366, y: 0.0762979}
+      - {x: -0.08693328, y: 0.074200675}
+      - {x: -0.08513319, y: -0.044787183}
+      - {x: -0.055173006, y: -0.04470755}
+      - {x: -0.05547371, y: -0.0655877}
+      - {x: -0.035591714, y: -0.06660467}
+      - {x: -0.034887046, y: -0.084377386}
+      - {x: -0.025182849, y: -0.08562692}
+      - {x: -0.026192505, y: -0.10537344}
+      - {x: -0.0059210565, y: -0.10600532}
+      - {x: -0.006351553, y: -0.11641695}
+      - {x: 0.01639051, y: -0.11591438}
+      - {x: 0.016830983, y: -0.106544696}
+      - {x: 0.035202295, y: -0.10602384}
+      - {x: 0.035869513, y: -0.08663623}
+      - {x: 0.04616867, y: -0.0849908}
+      - {x: 0.046341993, y: -0.06739899}
+      - {x: 0.056255717, y: -0.06336708}
+      - {x: 0.056791153, y: -0.04738364}
+      - {x: 0.08580329, y: -0.04650858}
+      - {x: 0.08539834, y: 0.077181116}
+      - {x: 0.07539835, y: 0.0764737}
   m_UseDelaunayMesh: 1
---- !u!114 &449513959073867371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5554851241892482283}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.PlayerInput
-  m_Actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard&Mouse
-  m_DefaultActionMap: Player
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
