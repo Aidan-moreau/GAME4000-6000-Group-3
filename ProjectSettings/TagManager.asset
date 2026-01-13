@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerBullet
   - Boss
+  - Weak Point
   layers:
   - Default
   - TransparentFX
