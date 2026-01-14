@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 6ffa9d612511e2e4fb14f108e554b023
+guid: f93a12226f9cdd54da81ae2b048372b4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3822846121264023432
-    second: boss_phase1_open_0
+      213: -6112423666151464651
+    second: boss_phase1_open1_0
   - first:
-      213: 3235817636425430955
-    second: boss_phase1_open_1
+      213: 2771869275676615856
+    second: boss_phase1_open1_1
   - first:
-      213: -8475536753661037155
-    second: boss_phase1_open_2
+      213: -1246551579570531513
+    second: boss_phase1_open1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +58,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 50, y: 121, z: 78, w: 55}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_phase1_open_1
+      name: boss_phase1_open1_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 8
-        width: 272
-        height: 273
+        x: 48
+        y: 118
+        width: 277
+        height: 229
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,8 +121,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba7f4190ffee7ec20800000000000000
-      internalID: 3235817636425430955
+      spriteID: 0b426849b68a77620800000000000000
+      internalID: 2771869275676615856
       vertices: []
       indices: 
       edges: []
@@ -131,8 +131,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 76477f6e11d691b42993e66896dc7f4d
-    internalID: -828779751
+    spriteID: 64705f4855b78d74eb519cd0ca97b85e
+    internalID: -885355391
     vertices: []
     indices: 
     edges: []
@@ -141,9 +141,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boss_phase1_open_0: 3822846121264023432
-      boss_phase1_open_1: 3235817636425430955
-      boss_phase1_open_2: -8475536753661037155
+      boss_phase1_open1_0: -6112423666151464651
+      boss_phase1_open1_1: 2771869275676615856
+      boss_phase1_open1_2: -1246551579570531513
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

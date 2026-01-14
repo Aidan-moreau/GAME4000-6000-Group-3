@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 4725cd206f2f34746897db1bf2b5a5fc
+guid: 9330839f1108c624cbebb8dab998ae04
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6143211661545509556
-    second: boss_phase1_closed_0
+      213: -3537626143400233115
+    second: boss_phase1_closed 1_0
   - first:
-      213: 390726672065309442
-    second: boss_phase1_closed_1
+      213: 2587724567540659809
+    second: boss_phase1_closed 1_1
   - first:
-      213: 8923560078407201809
-    second: boss_phase1_closed_2
+      213: -8662907700766479247
+    second: boss_phase1_closed 1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -106,12 +106,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: boss_phase1_closed_0
+      name: boss_phase1_closed 1_0
       rect:
         serializedVersion: 2
-        x: 50
-        y: 197
-        width: 102
+        x: 0
+        y: 179
+        width: 101
         height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -121,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4dea8dba8deebaa0800000000000000
-      internalID: -6143211661545509556
+      spriteID: 5677e7604c3d7eec0800000000000000
+      internalID: -3537626143400233115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_phase1_closed_1
+      name: boss_phase1_closed 1_1
       rect:
         serializedVersion: 2
-        x: 114
-        y: 17
+        x: 63
+        y: 0
         width: 146
-        height: 258
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20b29bc86d32c6500800000000000000
-      internalID: 390726672065309442
+      spriteID: 166ffc8a8c179e320800000000000000
+      internalID: 2587724567540659809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: boss_phase1_closed_2
+      name: boss_phase1_closed 1_2
       rect:
         serializedVersion: 2
-        x: 222
-        y: 197
-        width: 102
+        x: 171
+        y: 179
+        width: 101
         height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -165,8 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 114715dbc9ad6db70800000000000000
-      internalID: 8923560078407201809
+      spriteID: 17c61dd185b27c780800000000000000
+      internalID: -8662907700766479247
       vertices: []
       indices: 
       edges: []
@@ -175,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -185,9 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      boss_phase1_closed_0: -6143211661545509556
-      boss_phase1_closed_1: 390726672065309442
-      boss_phase1_closed_2: 8923560078407201809
+      boss_phase1_closed 1_0: -3537626143400233115
+      boss_phase1_closed 1_1: 2587724567540659809
+      boss_phase1_closed 1_2: -8662907700766479247
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
