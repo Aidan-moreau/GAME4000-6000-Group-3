@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: AsteroidsRotate
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":161.0,"y":179.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"893cc10a-994e-408d-8198-af2eb3bf0acb","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-203.0,"y":-48.0},"guid":"575befe4-7de4-4b8d-baa2-3479147d9142","$version":"A","$type":"Unity.VisualScripting.Update"},{"chainable":false,"parameterNames":["axis","angle"],"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3","System.Single"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%axis":{"x":0.0,"y":0.0,"z":1.0,"$type":"UnityEngine.Vector3"},"%angle":{"$content":0.25,"$type":"System.Single"}},"position":{"x":82.0,"y":63.0},"guid":"6033c0c0-9723-4927-bc2d-3786a3150aad","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"13"},{"coroutine":true,"defaultValues":{},"position":{"x":-211.0,"y":69.0},"guid":"c60c7655-2d4f-4bd3-a837-a553e24e37ed","$version":"A","$type":"Unity.VisualScripting.FixedUpdate","$id":"17"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"SpinSpeed","$type":"System.String"},"object":null},"position":{"x":-124.0,"y":191.0},"guid":"5bc44eb7-e948-4faa-b843-99732c8a2e3c","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"17"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"c1930e1c-ab25-4366-b6ea-76c7f77bd0cf","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"%angle","guid":"47111bc4-fa14-484b-aff8-f4587ecc69bb","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
