@@ -1,0 +1,769 @@
+warning: in the working copy of 'Assets/_Project2/Scenes/Tanuj Scene.unity', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/Assets/_Project2/Scenes/Tanuj Scene.unity b/Assets/_Project2/Scenes/Tanuj Scene.unity[m
+[1mindex 8426eb9..ad353df 100644[m
+[1m--- a/Assets/_Project2/Scenes/Tanuj Scene.unity[m	
+[1m+++ b/Assets/_Project2/Scenes/Tanuj Scene.unity[m	
+[36m@@ -119,6 +119,248 @@[m [mNavMeshSettings:[m
+     debug:[m
+       m_Flags: 0[m
+   m_NavMeshData: {fileID: 0}[m
+[32m+[m[32m--- !u!1 &183984488[m
+[32m+[m[32mGameObject:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  serializedVersion: 6[m
+[32m+[m[32m  m_Component:[m
+[32m+[m[32m  - component: {fileID: 183984490}[m
+[32m+[m[32m  - component: {fileID: 183984489}[m
+[32m+[m[32m  m_Layer: 0[m
+[32m+[m[32m  m_Name: floor_0 (1)[m
+[32m+[m[32m  m_TagString: Untagged[m
+[32m+[m[32m  m_Icon: {fileID: 0}[m
+[32m+[m[32m  m_NavMeshLayer: 0[m
+[32m+[m[32m  m_StaticEditorFlags: 0[m
+[32m+[m[32m  m_IsActive: 1[m
+[32m+[m[32m--- !u!212 &183984489[m
+[32m+[m[32mSpriteRenderer:[m
+[32m+[m[32m  serializedVersion: 2[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 183984488}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_CastShadows: 0[m
+[32m+[m[32m  m_ReceiveShadows: 0[m
+[32m+[m[32m  m_DynamicOccludee: 1[m
+[32m+[m[32m  m_StaticShadowCaster: 0[m
+[32m+[m[32m  m_MotionVectors: 1[m
+[32m+[m[32m  m_LightProbeUsage: 1[m
+[32m+[m[32m  m_ReflectionProbeUsage: 1[m
+[32m+[m[32m  m_RayTracingMode: 0[m
+[32m+[m[32m  m_RayTraceProcedural: 0[m
+[32m+[m[32m  m_RayTracingAccelStructBuildFlagsOverride: 0[m
+[32m+[m[32m  m_RayTracingAccelStructBuildFlags: 1[m
+[32m+[m[32m  m_SmallMeshCulling: 1[m
+[32m+[m[32m  m_ForceMeshLod: -1[m
+[32m+[m[32m  m_MeshLodSelectionBias: 0[m
+[32m+[m[32m  m_RenderingLayerMask: 1[m
+[32m+[m[32m  m_RendererPriority: 0[m
+[32m+[m[32m  m_Materials:[m
+[32m+[m[32m  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}[m
+[32m+[m[32m  m_StaticBatchInfo:[m
+[32m+[m[32m    firstSubMesh: 0[m
+[32m+[m[32m    subMeshCount: 0[m
+[32m+[m[32m  m_StaticBatchRoot: {fileID: 0}[m
+[32m+[m[32m  m_ProbeAnchor: {fileID: 0}[m
+[32m+[m[32m  m_LightProbeVolumeOverride: {fileID: 0}[m
+[32m+[m[32m  m_ScaleInLightmap: 1[m
+[32m+[m[32m  m_ReceiveGI: 1[m
+[32m+[m[32m  m_PreserveUVs: 0[m
+[32m+[m[32m  m_IgnoreNormalsForChartDetection: 0[m
+[32m+[m[32m  m_ImportantGI: 0[m
+[32m+[m[32m  m_StitchLightmapSeams: 1[m
+[32m+[m[32m  m_SelectedEditorRenderState: 0[m
+[32m+[m[32m  m_MinimumChartSize: 4[m
+[32m+[m[32m  m_AutoUVMaxDistance: 0.5[m
+[32m+[m[32m  m_AutoUVMaxAngle: 89[m
+[32m+[m[32m  m_LightmapParameters: {fileID: 0}[m
+[32m+[m[32m  m_GlobalIlluminationMeshLod: 0[m
+[32m+[m[32m  m_SortingLayerID: 0[m
+[32m+[m[32m  m_SortingLayer: 0[m
+[32m+[m[32m  m_SortingOrder: 0[m
+[32m+[m[32m  m_MaskInteraction: 0[m
+[32m+[m[32m  m_Sprite: {fileID: -4373184736405950995, guid: d8ab24971207c7b47adc6f2177b2b3ad, type: 3}[m
+[32m+[m[32m  m_Color: {r: 1, g: 1, b: 1, a: 1}[m
+[32m+[m[32m  m_FlipX: 0[m
+[32m+[m[32m  m_FlipY: 0[m
+[32m+[m[32m  m_DrawMode: 0[m
+[32m+[m[32m  m_Size: {x: 0.32, y: 0.32}[m
+[32m+[m[32m  m_AdaptiveModeThreshold: 0.5[m
+[32m+[m[32m  m_SpriteTileMode: 0[m
+[32m+[m[32m  m_WasSpriteAssigned: 1[m
+[32m+[m[32m  m_SpriteSortPoint: 0[m
+[32m+[m[32m--- !u!4 &183984490[m
+[32m+[m[32mTransform:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 183984488}[m
+[32m+[m[32m  serializedVersion: 2[m
+[32m+[m[32m  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}[m
+[32m+[m[32m  m_LocalPosition: {x: 0.7099, y: -0.6176, z: 0}[m
+[32m+[m[32m  m_LocalScale: {x: 19.0397, y: 10.388539, z: 1}[m
+[32m+[m[32m  m_ConstrainProportionsScale: 0[m
+[32m+[m[32m  m_Children: [][m
+[32m+[m[32m  m_Father: {fileID: 0}[m
+[32m+[m[32m  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}[m
+[32m+[m[32m--- !u!1 &227049728[m
+[32m+[m[32mGameObject:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  serializedVersion: 6[m
+[32m+[m[32m  m_Component:[m
+[32m+[m[32m  - component: {fileID: 227049730}[m
+[32m+[m[32m  - component: {fileID: 227049729}[m
+[32m+[m[32m  m_Layer: 0[m
+[32m+[m[32m  m_Name: floor_0[m
+[32m+[m[32m  m_TagString: Untagged[m
+[32m+[m[32m  m_Icon: {fileID: 0}[m
+[32m+[m[32m  m_NavMeshLayer: 0[m
+[32m+[m[32m  m_StaticEditorFlags: 0[m
+[32m+[m[32m  m_IsActive: 1[m
+[32m+[m[32m--- !u!212 &227049729[m
+[32m+[m[32mSpriteRenderer:[m
+[32m+[m[32m  serializedVersion: 2[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 227049728}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_CastShadows: 0[m
+[32m+[m[32m  m_ReceiveShadows: 0[m
+[32m+[m[32m  m_DynamicOccludee: 1[m
+[32m+[m[32m  m_StaticShadowCaster: 0[m
+[32m+[m[32m  m_MotionVectors: 1[m
+[32m+[m[32m  m_LightProbeUsage: 1[m
+[32m+[m[32m  m_ReflectionProbeUsage: 1[m
+[32m+[m[32m  m_RayTracingMode: 0[m
+[32m+[m[32m  m_RayTraceProcedural: 0[m
+[32m+[m[32m  m_RayTracingAccelStructBuildFlagsOverride: 0[m
+[32m+[m[32m  m_RayTracingAccelStructBuildFlags: 1[m
+[32m+[m[32m  m_SmallMeshCulling: 1[m
+[32m+[m[32m  m_ForceMeshLod: -1[m
+[32m+[m[32m  m_MeshLodSelectionBias: 0[m
+[32m+[m[32m  m_RenderingLayerMask: 1[m
+[32m+[m[32m  m_RendererPriority: 0[m
+[32m+[m[32m  m_Materials:[m
+[32m+[m[32m  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}[m
+[32m+[m[32m  m_StaticBatchInfo:[m
+[32m+[m[32m    firstSubMesh: 0[m
+[32m+[m[32m    subMeshCount: 0[m
+[32m+[m[32m  m_StaticBatchRoot: {fileID: 0}[m
+[32m+[m[32m  m_ProbeAnchor: {fileID: 0}[m
+[32m+[m[32m  m_LightProbeVolumeOverride: {fileID: 0}[m
+[32m+[m[32m  m_ScaleInLightmap: 1[m
+[32m+[m[32m  m_ReceiveGI: 1[m
+[32m+[m[32m  m_PreserveUVs: 0[m
+[32m+[m[32m  m_IgnoreNormalsForChartDetection: 0[m
+[32m+[m[32m  m_ImportantGI: 0[m
+[32m+[m[32m  m_StitchLightmapSeams: 1[m
+[32m+[m[32m  m_SelectedEditorRenderState: 0[m
+[32m+[m[32m  m_MinimumChartSize: 4[m
+[32m+[m[32m  m_AutoUVMaxDistance: 0.5[m
+[32m+[m[32m  m_AutoUVMaxAngle: 89[m
+[32m+[m[32m  m_LightmapParameters: {fileID: 0}[m
+[32m+[m[32m  m_GlobalIlluminationMeshLod: 0[m
+[32m+[m[32m  m_SortingLayerID: 0[m
+[32m+[m[32m  m_SortingLayer: 0[m
+[32m+[m[32m  m_SortingOrder: 0[m
+[32m+[m[32m  m_MaskInteraction: 0[m
+[32m+[m[32m  m_Sprite: {fileID: -4373184736405950995, guid: d8ab24971207c7b47adc6f2177b2b3ad, type: 3}[m
+[32m+[m[32m  m_Color: {r: 1, g: 1, b: 1, a: 1}[m
+[32m+[m[32m  m_FlipX: 0[m
+[32m+[m[32m  m_FlipY: 0[m
+[32m+[m[32m  m_DrawMode: 0[m
+[32m+[m[32m  m_Size: {x: 0.32, y: 0.32}[m
+[32m+[m[32m  m_AdaptiveModeThreshold: 0.5[m
+[32m+[m[32m  m_SpriteTileMode: 0[m
+[32m+[m[32m  m_WasSpriteAssigned: 1[m
+[32m+[m[32m  m_SpriteSortPoint: 0[m
+[32m+[m[32m--- !u!4 &227049730[m
+[32m+[m[32mTransform:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 227049728}[m
+[32m+[m[32m  serializedVersion: 2[m
+[32m+[m[32m  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}[m
+[32m+[m[32m  m_LocalPosition: {x: 268.1367, y: 745.44885, z: 0}[m
+[32m+[m[32m  m_LocalScale: {x: 1, y: 1, z: 1}[m
+[32m+[m[32m  m_ConstrainProportionsScale: 0[m
+[32m+[m[32m  m_Children: [][m
+[32m+[m[32m  m_Father: {fileID: 0}[m
+[32m+[m[32m  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}[m
+[32m+[m[32m--- !u!1 &980317156[m
+[32m+[m[32mGameObject:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  serializedVersion: 6[m
+[32m+[m[32m  m_Component:[m
+[32m+[m[32m  - component: {fileID: 980317159}[m
+[32m+[m[32m  - component: {fileID: 980317158}[m
+[32m+[m[32m  - component: {fileID: 980317157}[m
+[32m+[m[32m  m_Layer: 0[m
+[32m+[m[32m  m_Name: VisualScripting SceneVariables[m
+[32m+[m[32m  m_TagString: Untagged[m
+[32m+[m[32m  m_Icon: {fileID: 0}[m
+[32m+[m[32m  m_NavMeshLayer: 0[m
+[32m+[m[32m  m_StaticEditorFlags: 0[m
+[32m+[m[32m  m_IsActive: 1[m
+[32m+[m[32m--- !u!114 &980317157[m
+[32m+[m[32mMonoBehaviour:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 980317156}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_EditorHideFlags: 0[m
+[32m+[m[32m  m_Script: {fileID: 11500000, guid: 765181c9ef4b24d32a4f7cbd2ef370dc, type: 3}[m
+[32m+[m[32m  m_Name:[m[41m [m
+[32m+[m[32m  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.SceneVariables[m
+[32m+[m[32m--- !u!114 &980317158[m
+[32m+[m[32mMonoBehaviour:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 980317156}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_EditorHideFlags: 0[m
+[32m+[m[32m  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}[m
+[32m+[m[32m  m_Name:[m[41m [m
+[32m+[m[32m  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables[m
+[32m+[m[32m  _data:[m
+[32m+[m[32m    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'[m
+[32m+[m[32m    _objectReferences: [][m
+[32m+[m[32m--- !u!4 &980317159[m
+[32m+[m[32mTransform:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 980317156}[m
+[32m+[m[32m  serializedVersion: 2[m
+[32m+[m[32m  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}[m
+[32m+[m[32m  m_LocalPosition: {x: 0, y: 0, z: 0}[m
+[32m+[m[32m  m_LocalScale: {x: 1, y: 1, z: 1}[m
+[32m+[m[32m  m_ConstrainProportionsScale: 0[m
+[32m+[m[32m  m_Children: [][m
+[32m+[m[32m  m_Father: {fileID: 0}[m
+[32m+[m[32m  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}[m
+ --- !u!1 &990820560[m
+ GameObject:[m
+   m_ObjectHideFlags: 0[m
+[36m@@ -130,6 +372,7 @@[m [mGameObject:[m
+   - component: {fileID: 990820563}[m
+   - component: {fileID: 990820562}[m
+   - component: {fileID: 990820561}[m
+[32m+[m[32m  - component: {fileID: 990820564}[m
+   m_Layer: 0[m
+   m_Name: Main Camera[m
+   m_TagString: MainCamera[m
+[36m@@ -204,15 +447,504 @@[m [mTransform:[m
+   m_PrefabAsset: {fileID: 0}[m
+   m_GameObject: {fileID: 990820560}[m
+   serializedVersion: 2[m
+[32m+[m[32m  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}[m
+[32m+[m[32m  m_LocalPosition: {x: -1.75325, y: -0.30565, z: -10}[m
+[32m+[m[32m  m_LocalScale: {x: 1, y: 1, z: 1}[m
+[32m+[m[32m  m_ConstrainProportionsScale: 0[m
+[32m+[m[32m  m_Children: [][m
+[32m+[m[32m  m_Father: {fileID: 1713825128}[m
+[32m+[m[32m  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}[m
+[32m+[m[32m--- !u!114 &990820564[m
+[32m+[m[32mMonoBehaviour:[m
+[32m+[m[32m  m_ObjectHideFlags: 64[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 990820560}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_EditorHideFlags: 0[m
+[32m+[m[32m  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}[m
+[32m+[m[32m  m_Name:[m[41m [m
+[32m+[m[32m  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData[m
+[32m+[m[32m  m_RenderShadows: 1[m
+[32m+[m[32m  m_RequiresDepthTextureOption: 2[m
+[32m+[m[32m  m_RequiresOpaqueTextureOption: 2[m
+[32m+[m[32m  m_CameraType: 0[m
+[32m+[m[32m  m_Cameras: [][m
+[32m+[m[32m  m_RendererIndex: -1[m
+[32m+[m[32m  m_VolumeLayerMask:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 1[m
+[32m+[m[32m  m_VolumeTrigger: {fileID: 0}[m
+[32m+[m[32m  m_VolumeFrameworkUpdateModeOption: 2[m
+[32m+[m[32m  m_RenderPostProcessing: 0[m
+[32m+[m[32m  m_Antialiasing: 0[m
+[32m+[m[32m  m_AntialiasingQuality: 2[m
+[32m+[m[32m  m_StopNaN: 0[m
+[32m+[m[32m  m_Dithering: 0[m
+[32m+[m[32m  m_ClearDepth: 1[m
+[32m+[m[32m  m_AllowXRRendering: 1[m
+[32m+[m[32m  m_AllowHDROutput: 1[m
+[32m+[m[32m  m_UseScreenCoordOverride: 0[m
+[32m+[m[32m  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}[m
+[32m+[m[32m  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}[m
+[32m+[m[32m  m_RequiresDepthTexture: 0[m
+[32m+[m[32m  m_RequiresColorTexture: 0[m
+[32m+[m[32m  m_TaaSettings:[m
+[32m+[m[32m    m_Quality: 3[m
+[32m+[m[32m    m_FrameInfluence: 0.1[m
+[32m+[m[32m    m_JitterScale: 1[m
+[32m+[m[32m    m_MipBias: 0[m
+[32m+[m[32m    m_VarianceClampScale: 0.9[m
+[32m+[m[32m    m_ContrastAdaptiveSharpening: 0[m
+[32m+[m[32m  m_Version: 2[m
+[32m+[m[32m--- !u!1 &996050036[m
+[32m+[m[32mGameObject:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  serializedVersion: 6[m
+[32m+[m[32m  m_Component:[m
+[32m+[m[32m  - component: {fileID: 996050040}[m
+[32m+[m[32m  - component: {fileID: 996050039}[m
+[32m+[m[32m  - component: {fileID: 996050038}[m
+[32m+[m[32m  - component: {fileID: 996050037}[m
+[32m+[m[32m  - component: {fileID: 996050041}[m
+[32m+[m[32m  m_Layer: 5[m
+[32m+[m[32m  m_Name: Background[m
+[32m+[m[32m  m_TagString: Untagged[m
+[32m+[m[32m  m_Icon: {fileID: 0}[m
+[32m+[m[32m  m_NavMeshLayer: 0[m
+[32m+[m[32m  m_StaticEditorFlags: 0[m
+[32m+[m[32m  m_IsActive: 1[m
+[32m+[m[32m--- !u!114 &996050037[m
+[32m+[m[32mMonoBehaviour:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 996050036}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_EditorHideFlags: 0[m
+[32m+[m[32m  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}[m
+[32m+[m[32m  m_Name:[m[41m [m
+[32m+[m[32m  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster[m
+[32m+[m[32m  m_IgnoreReversedGraphics: 1[m
+[32m+[m[32m  m_BlockingObjects: 0[m
+[32m+[m[32m  m_BlockingMask:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 4294967295[m
+[32m+[m[32m--- !u!114 &996050038[m
+[32m+[m[32mMonoBehaviour:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 996050036}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_EditorHideFlags: 0[m
+[32m+[m[32m  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}[m
+[32m+[m[32m  m_Name:[m[41m [m
+[32m+[m[32m  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler[m
+[32m+[m[32m  m_UiScaleMode: 1[m
+[32m+[m[32m  m_ReferencePixelsPerUnit: 100[m
+[32m+[m[32m  m_ScaleFactor: 1[m
+[32m+[m[32m  m_ReferenceResolution: {x: 800, y: 600}[m
+[32m+[m[32m  m_ScreenMatchMode: 0[m
+[32m+[m[32m  m_MatchWidthOrHeight: 0[m
+[32m+[m[32m  m_PhysicalUnit: 3[m
+[32m+[m[32m  m_FallbackScreenDPI: 96[m
+[32m+[m[32m  m_DefaultSpriteDPI: 96[m
+[32m+[m[32m  m_DynamicPixelsPerUnit: 1[m
+[32m+[m[32m  m_PresetInfoIsWorld: 0[m
+[32m+[m[32m--- !u!223 &996050039[m
+[32m+[m[32mCanvas:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 996050036}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  serializedVersion: 3[m
+[32m+[m[32m  m_RenderMode: 0[m
+[32m+[m[32m  m_Camera: {fileID: 0}[m
+[32m+[m[32m  m_PlaneDistance: 100[m
+[32m+[m[32m  m_PixelPerfect: 0[m
+[32m+[m[32m  m_ReceivesEvents: 1[m
+[32m+[m[32m  m_OverrideSorting: 0[m
+[32m+[m[32m  m_OverridePixelPerfect: 0[m
+[32m+[m[32m  m_SortingBucketNormalizedSize: 0[m
+[32m+[m[32m  m_VertexColorAlwaysGammaSpace: 0[m
+[32m+[m[32m  m_AdditionalShaderChannelsFlag: 0[m
+[32m+[m[32m  m_UpdateRectTransformForStandalone: 0[m
+[32m+[m[32m  m_SortingLayerID: 0[m
+[32m+[m[32m  m_SortingOrder: 0[m
+[32m+[m[32m  m_TargetDisplay: 0[m
+[32m+[m[32m--- !u!224 &996050040[m
+[32m+[m[32mRectTransform:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 996050036}[m
+   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}[m
+[31m-  m_LocalPosition: {x: 0, y: 0, z: -10}[m
+[32m+[m[32m  m_LocalPosition: {x: 0, y: 0, z: 0}[m
+[32m+[m[32m  m_LocalScale: {x: 0, y: 0, z: 0}[m
+[32m+[m[32m  m_ConstrainProportionsScale: 0[m
+[32m+[m[32m  m_Children: [][m
+[32m+[m[32m  m_Father: {fileID: 0}[m
+[32m+[m[32m  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}[m
+[32m+[m[32m  m_AnchorMin: {x: 0, y: 0}[m
+[32m+[m[32m  m_AnchorMax: {x: 0, y: 0}[m
+[32m+[m[32m  m_AnchoredPosition: {x: 0, y: 0}[m
+[32m+[m[32m  m_SizeDelta: {x: 0, y: 0}[m
+[32m+[m[32m  m_Pivot: {x: 0, y: 0}[m
+[32m+[m[32m--- !u!212 &996050041[m
+[32m+[m[32mSpriteRenderer:[m
+[32m+[m[32m  serializedVersion: 2[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 996050036}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_CastShadows: 0[m
+[32m+[m[32m  m_ReceiveShadows: 0[m
+[32m+[m[32m  m_DynamicOccludee: 1[m
+[32m+[m[32m  m_StaticShadowCaster: 0[m
+[32m+[m[32m  m_MotionVectors: 1[m
+[32m+[m[32m  m_LightProbeUsage: 1[m
+[32m+[m[32m  m_ReflectionProbeUsage: 1[m
+[32m+[m[32m  m_RayTracingMode: 0[m
+[32m+[m[32m  m_RayTraceProcedural: 0[m
+[32m+[m[32m  m_RayTracingAccelStructBuildFlagsOverride: 0[m
+[32m+[m[32m  m_RayTracingAccelStructBuildFlags: 1[m
+[32m+[m[32m  m_SmallMeshCulling: 1[m
+[32m+[m[32m  m_ForceMeshLod: -1[m
+[32m+[m[32m  m_MeshLodSelectionBias: 0[m
+[32m+[m[32m  m_RenderingLayerMask: 1[m
+[32m+[m[32m  m_RendererPriority: 0[m
+[32m+[m[32m  m_Materials:[m
+[32m+[m[32m  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}[m
+[32m+[m[32m  m_StaticBatchInfo:[m
+[32m+[m[32m    firstSubMesh: 0[m
+[32m+[m[32m    subMeshCount: 0[m
+[32m+[m[32m  m_StaticBatchRoot: {fileID: 0}[m
+[32m+[m[32m  m_ProbeAnchor: {fileID: 0}[m
+[32m+[m[32m  m_LightProbeVolumeOverride: {fileID: 0}[m
+[32m+[m[32m  m_ScaleInLightmap: 1[m
+[32m+[m[32m  m_ReceiveGI: 1[m
+[32m+[m[32m  m_PreserveUVs: 0[m
+[32m+[m[32m  m_IgnoreNormalsForChartDetection: 0[m
+[32m+[m[32m  m_ImportantGI: 0[m
+[32m+[m[32m  m_StitchLightmapSeams: 1[m
+[32m+[m[32m  m_SelectedEditorRenderState: 0[m
+[32m+[m[32m  m_MinimumChartSize: 4[m
+[32m+[m[32m  m_AutoUVMaxDistance: 0.5[m
+[32m+[m[32m  m_AutoUVMaxAngle: 89[m
+[32m+[m[32m  m_LightmapParameters: {fileID: 0}[m
+[32m+[m[32m  m_GlobalIlluminationMeshLod: 0[m
+[32m+[m[32m  m_SortingLayerID: 0[m
+[32m+[m[32m  m_SortingLayer: 0[m
+[32m+[m[32m  m_SortingOrder: 0[m
+[32m+[m[32m  m_MaskInteraction: 0[m
+[32m+[m[32m  m_Sprite: {fileID: -4373184736405950995, guid: d8ab24971207c7b47adc6f2177b2b3ad, type: 3}[m
+[32m+[m[32m  m_Color: {r: 1, g: 1, b: 1, a: 1}[m
+[32m+[m[32m  m_FlipX: 0[m
+[32m+[m[32m  m_FlipY: 0[m
+[32m+[m[32m  m_DrawMode: 0[m
+[32m+[m[32m  m_Size: {x: 0.32, y: 0.32}[m
+[32m+[m[32m  m_AdaptiveModeThreshold: 0.5[m
+[32m+[m[32m  m_SpriteTileMode: 0[m
+[32m+[m[32m  m_WasSpriteAssigned: 1[m
+[32m+[m[32m  m_SpriteSortPoint: 0[m
+[32m+[m[32m--- !u!1 &1136355823[m
+[32m+[m[32mGameObject:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  serializedVersion: 6[m
+[32m+[m[32m  m_Component:[m
+[32m+[m[32m  - component: {fileID: 1136355826}[m
+[32m+[m[32m  - component: {fileID: 1136355825}[m
+[32m+[m[32m  - component: {fileID: 1136355824}[m
+[32m+[m[32m  m_Layer: 0[m
+[32m+[m[32m  m_Name: EventSystem[m
+[32m+[m[32m  m_TagString: Untagged[m
+[32m+[m[32m  m_Icon: {fileID: 0}[m
+[32m+[m[32m  m_NavMeshLayer: 0[m
+[32m+[m[32m  m_StaticEditorFlags: 0[m
+[32m+[m[32m  m_IsActive: 1[m
+[32m+[m[32m--- !u!114 &1136355824[m
+[32m+[m[32mMonoBehaviour:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 1136355823}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_EditorHideFlags: 0[m
+[32m+[m[32m  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}[m
+[32m+[m[32m  m_Name:[m[41m [m
+[32m+[m[32m  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.UI.InputSystemUIInputModule[m
+[32m+[m[32m  m_SendPointerHoverToParent: 1[m
+[32m+[m[32m  m_MoveRepeatDelay: 0.5[m
+[32m+[m[32m  m_MoveRepeatRate: 0.1[m
+[32m+[m[32m  m_XRTrackingOrigin: {fileID: 0}[m
+[32m+[m[32m  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}[m
+[32m+[m[32m  m_DeselectOnBackgroundClick: 1[m
+[32m+[m[32m  m_PointerBehavior: 0[m
+[32m+[m[32m  m_CursorLockBehavior: 0[m
+[32m+[m[32m  m_ScrollDeltaPerTick: 6[m
+[32m+[m[32m--- !u!114 &1136355825[m
+[32m+[m[32mMonoBehaviour:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 1136355823}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_EditorHideFlags: 0[m
+[32m+[m[32m  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}[m
+[32m+[m[32m  m_Name:[m[41m [m
+[32m+[m[32m  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventSystem[m
+[32m+[m[32m  m_FirstSelected: {fileID: 0}[m
+[32m+[m[32m  m_sendNavigationEvents: 1[m
+[32m+[m[32m  m_DragThreshold: 10[m
+[32m+[m[32m--- !u!4 &1136355826[m
+[32m+[m[32mTransform:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 1136355823}[m
+[32m+[m[32m  serializedVersion: 2[m
+[32m+[m[32m  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}[m
+[32m+[m[32m  m_LocalPosition: {x: 0, y: 0, z: 0}[m
+   m_LocalScale: {x: 1, y: 1, z: 1}[m
+   m_ConstrainProportionsScale: 0[m
+   m_Children: [][m
+   m_Father: {fileID: 0}[m
+   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}[m
+[32m+[m[32m--- !u!1 &1713825125[m
+[32m+[m[32mGameObject:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  serializedVersion: 6[m
+[32m+[m[32m  m_Component:[m
+[32m+[m[32m  - component: {fileID: 1713825128}[m
+[32m+[m[32m  - component: {fileID: 1713825127}[m
+[32m+[m[32m  - component: {fileID: 1713825126}[m
+[32m+[m[32m  - component: {fileID: 1713825131}[m
+[32m+[m[32m  - component: {fileID: 1713825130}[m
+[32m+[m[32m  - component: {fileID: 1713825129}[m
+[32m+[m[32m  m_Layer: 0[m
+[32m+[m[32m  m_Name: Chararcter[m
+[32m+[m[32m  m_TagString: Untagged[m
+[32m+[m[32m  m_Icon: {fileID: 0}[m
+[32m+[m[32m  m_NavMeshLayer: 0[m
+[32m+[m[32m  m_StaticEditorFlags: 0[m
+[32m+[m[32m  m_IsActive: 1[m
+[32m+[m[32m--- !u!50 &1713825126[m
+[32m+[m[32mRigidbody2D:[m
+[32m+[m[32m  serializedVersion: 5[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 1713825125}[m
+[32m+[m[32m  m_BodyType: 0[m
+[32m+[m[32m  m_Simulated: 1[m
+[32m+[m[32m  m_UseFullKinematicContacts: 0[m
+[32m+[m[32m  m_UseAutoMass: 0[m
+[32m+[m[32m  m_Mass: 1[m
+[32m+[m[32m  m_LinearDamping: 7[m
+[32m+[m[32m  m_AngularDamping: 0.05[m
+[32m+[m[32m  m_GravityScale: 0[m
+[32m+[m[32m  m_Material: {fileID: 0}[m
+[32m+[m[32m  m_IncludeLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 0[m
+[32m+[m[32m  m_ExcludeLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 0[m
+[32m+[m[32m  m_Interpolate: 0[m
+[32m+[m[32m  m_SleepingMode: 1[m
+[32m+[m[32m  m_CollisionDetection: 0[m
+[32m+[m[32m  m_Constraints: 4[m
+[32m+[m[32m--- !u!212 &1713825127[m
+[32m+[m[32mSpriteRenderer:[m
+[32m+[m[32m  serializedVersion: 2[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 1713825125}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_CastShadows: 0[m
+[32m+[m[32m  m_ReceiveShadows: 0[m
+[32m+[m[32m  m_DynamicOccludee: 1[m
+[32m+[m[32m  m_StaticShadowCaster: 0[m
+[32m+[m[32m  m_MotionVectors: 1[m
+[32m+[m[32m  m_LightProbeUsage: 1[m
+[32m+[m[32m  m_ReflectionProbeUsage: 1[m
+[32m+[m[32m  m_RayTracingMode: 0[m
+[32m+[m[32m  m_RayTraceProcedural: 0[m
+[32m+[m[32m  m_RayTracingAccelStructBuildFlagsOverride: 0[m
+[32m+[m[32m  m_RayTracingAccelStructBuildFlags: 1[m
+[32m+[m[32m  m_SmallMeshCulling: 1[m
+[32m+[m[32m  m_ForceMeshLod: -1[m
+[32m+[m[32m  m_MeshLodSelectionBias: 0[m
+[32m+[m[32m  m_RenderingLayerMask: 1[m
+[32m+[m[32m  m_RendererPriority: 0[m
+[32m+[m[32m  m_Materials:[m
+[32m+[m[32m  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}[m
+[32m+[m[32m  m_StaticBatchInfo:[m
+[32m+[m[32m    firstSubMesh: 0[m
+[32m+[m[32m    subMeshCount: 0[m
+[32m+[m[32m  m_StaticBatchRoot: {fileID: 0}[m
+[32m+[m[32m  m_ProbeAnchor: {fileID: 0}[m
+[32m+[m[32m  m_LightProbeVolumeOverride: {fileID: 0}[m
+[32m+[m[32m  m_ScaleInLightmap: 1[m
+[32m+[m[32m  m_ReceiveGI: 1[m
+[32m+[m[32m  m_PreserveUVs: 0[m
+[32m+[m[32m  m_IgnoreNormalsForChartDetection: 0[m
+[32m+[m[32m  m_ImportantGI: 0[m
+[32m+[m[32m  m_StitchLightmapSeams: 1[m
+[32m+[m[32m  m_SelectedEditorRenderState: 0[m
+[32m+[m[32m  m_MinimumChartSize: 4[m
+[32m+[m[32m  m_AutoUVMaxDistance: 0.5[m
+[32m+[m[32m  m_AutoUVMaxAngle: 89[m
+[32m+[m[32m  m_LightmapParameters: {fileID: 0}[m
+[32m+[m[32m  m_GlobalIlluminationMeshLod: 0[m
+[32m+[m[32m  m_SortingLayerID: 0[m
+[32m+[m[32m  m_SortingLayer: 0[m
+[32m+[m[32m  m_SortingOrder: 0[m
+[32m+[m[32m  m_MaskInteraction: 0[m
+[32m+[m[32m  m_Sprite: {fileID: 7145198348311737387, guid: eff0b2ea294590d47835bb694a79c734, type: 3}[m
+[32m+[m[32m  m_Color: {r: 1, g: 1, b: 1, a: 1}[m
+[32m+[m[32m  m_FlipX: 0[m
+[32m+[m[32m  m_FlipY: 0[m
+[32m+[m[32m  m_DrawMode: 0[m
+[32m+[m[32m  m_Size: {x: 0.44, y: 0.6}[m
+[32m+[m[32m  m_AdaptiveModeThreshold: 0.5[m
+[32m+[m[32m  m_SpriteTileMode: 0[m
+[32m+[m[32m  m_WasSpriteAssigned: 1[m
+[32m+[m[32m  m_SpriteSortPoint: 0[m
+[32m+[m[32m--- !u!4 &1713825128[m
+[32m+[m[32mTransform:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 1713825125}[m
+[32m+[m[32m  serializedVersion: 2[m
+[32m+[m[32m  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}[m
+[32m+[m[32m  m_LocalPosition: {x: 1.654, y: -1.116, z: 0}[m
+[32m+[m[32m  m_LocalScale: {x: 1, y: 1, z: 1}[m
+[32m+[m[32m  m_ConstrainProportionsScale: 0[m
+[32m+[m[32m  m_Children:[m
+[32m+[m[32m  - {fileID: 990820563}[m
+[32m+[m[32m  m_Father: {fileID: 0}[m
+[32m+[m[32m  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}[m
+[32m+[m[32m--- !u!114 &1713825129[m
+[32m+[m[32mMonoBehaviour:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 1713825125}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_EditorHideFlags: 0[m
+[32m+[m[32m  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}[m
+[32m+[m[32m  m_Name:[m[41m [m
+[32m+[m[32m  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine[m
+[32m+[m[32m  _data:[m
+[32m+[m[32m    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'[m
+[32m+[m[32m    _objectReferences:[m
+[32m+[m[32m    - {fileID: 11400000, guid: 4b334fa9ab51bcd4fb2a45376069b060, type: 2}[m
+[32m+[m[32m--- !u!114 &1713825130[m
+[32m+[m[32mMonoBehaviour:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 1713825125}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_EditorHideFlags: 0[m
+[32m+[m[32m  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}[m
+[32m+[m[32m  m_Name:[m[41m [m
+[32m+[m[32m  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables[m
+[32m+[m[32m  _data:[m
+[32m+[m[32m    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'[m
+[32m+[m[32m    _objectReferences: [][m
+[32m+[m[32m--- !u!61 &1713825131[m
+[32m+[m[32mBoxCollider2D:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 1713825125}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  serializedVersion: 3[m
+[32m+[m[32m  m_Density: 1[m
+[32m+[m[32m  m_Material: {fileID: 0}[m
+[32m+[m[32m  m_IncludeLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 0[m
+[32m+[m[32m  m_ExcludeLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 0[m
+[32m+[m[32m  m_LayerOverridePriority: 0[m
+[32m+[m[32m  m_ForceSendLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 4294967295[m
+[32m+[m[32m  m_ForceReceiveLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 4294967295[m
+[32m+[m[32m  m_ContactCaptureLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 4294967295[m
+[32m+[m[32m  m_CallbackLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 4294967295[m
+[32m+[m[32m  m_IsTrigger: 0[m
+[32m+[m[32m  m_UsedByEffector: 0[m
+[32m+[m[32m  m_CompositeOperation: 0[m
+[32m+[m[32m  m_CompositeOrder: 0[m
+[32m+[m[32m  m_Offset: {x: 0, y: 0}[m
+[32m+[m[32m  m_SpriteTilingProperty:[m
+[32m+[m[32m    border: {x: 0, y: 0, z: 0, w: 0}[m
+[32m+[m[32m    pivot: {x: 0.5, y: 0.5}[m
+[32m+[m[32m    oldSize: {x: 0.44, y: 0.6}[m
+[32m+[m[32m    newSize: {x: 0.44, y: 0.6}[m
+[32m+[m[32m    adaptiveTilingThreshold: 0.5[m
+[32m+[m[32m    drawMode: 0[m
+[32m+[m[32m    adaptiveTiling: 0[m
+[32m+[m[32m  m_AutoTiling: 0[m
+[32m+[m[32m  m_Size: {x: 0.44, y: 0.6}[m
+[32m+[m[32m  m_EdgeRadius: 0[m
+ --- !u!1660057539 &9223372036854775807[m
+ SceneRoots:[m
+   m_ObjectHideFlags: 0[m
+   m_Roots:[m
+[31m-  - {fileID: 990820563}[m
+[32m+[m[32m  - {fileID: 1713825128}[m
+[32m+[m[32m  - {fileID: 980317159}[m
+[32m+[m[32m  - {fileID: 996050040}[m
+[32m+[m[32m  - {fileID: 1136355826}[m
+[32m+[m[32m  - {fileID: 227049730}[m
+[32m+[m[32m  - {fileID: 183984490}[m
