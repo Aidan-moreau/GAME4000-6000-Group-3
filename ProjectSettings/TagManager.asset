@@ -10,6 +10,7 @@ TagManager:
   - BossComponent
   - Asteroids
   - EnemyBullet
+  - Score
   layers:
   - Default
   - TransparentFX
