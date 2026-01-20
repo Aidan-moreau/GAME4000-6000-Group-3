@@ -330,7 +330,7 @@ MonoBehaviour:
       Manager","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 919913440}
+    - {fileID: 806675756}
 --- !u!224 &42774286
 RectTransform:
   m_ObjectHideFlags: 0
@@ -667,7 +667,7 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoneyManager","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 919913440}
+    - {fileID: 806675756}
 --- !u!212 &86453337
 SpriteRenderer:
   serializedVersion: 2
@@ -2317,6 +2317,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775426588}
   m_CullTransparentMesh: 1
+--- !u!1 &806675756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7430883500622210763, guid: af3b87684d479954e9b0f047ea72fc02, type: 3}
+  m_PrefabInstance: {fileID: 919913439}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &831498058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2643,6 +2648,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6028570232858656687, guid: af3b87684d479954e9b0f047ea72fc02, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Money","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Bomb","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Victory","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 7430883500622210763, guid: af3b87684d479954e9b0f047ea72fc02, type: 3}
       propertyPath: m_Name
       value: MoneyManager
@@ -2692,11 +2704,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af3b87684d479954e9b0f047ea72fc02, type: 3}
---- !u!1 &919913440 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7430883500622210763, guid: af3b87684d479954e9b0f047ea72fc02, type: 3}
-  m_PrefabInstance: {fileID: 919913439}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &943933138
 GameObject:
   m_ObjectHideFlags: 0
