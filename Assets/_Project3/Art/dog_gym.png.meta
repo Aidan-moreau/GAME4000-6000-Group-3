@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: e2ecbab17f04af4499644114e96335c7
+guid: a7e5a1e388ea1b94caa6158a04da5b4a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 737866068445315612
-    second: result (1)_0
-  - first:
-      213: 1305424552085070715
-    second: result (1)_1
+      213: 4009870511828570673
+    second: dog_gym_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: result (1)_0
+      name: dog_gym_0
       rect:
         serializedVersion: 2
-        x: 73
-        y: 72
-        width: 372
-        height: 490
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,30 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c124f75a74d6d3a00800000000000000
-      internalID: 737866068445315612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: result (1)_1
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 553
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b73aa14b6bccd1210800000000000000
-      internalID: 1305424552085070715
+      spriteID: 1321bdc3cfbe5a730800000000000000
+      internalID: 4009870511828570673
       vertices: []
       indices: 
       edges: []
@@ -150,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      result (1)_0: 737866068445315612
-      result (1)_1: 1305424552085070715
+      dog_gym_0: 4009870511828570673
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
