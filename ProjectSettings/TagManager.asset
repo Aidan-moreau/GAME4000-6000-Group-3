@@ -12,6 +12,7 @@ TagManager:
   - EnemyBullet
   - Score
   - Rock
+  - End
   layers:
   - Default
   - TransparentFX
