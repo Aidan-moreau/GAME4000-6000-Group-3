@@ -100,30 +100,33 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.ads": {
-      "version": "file:com.unity.ads",
+      "version": "4.16.4",
       "depth": 0,
-      "source": "embedded",
+      "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.modules.androidjni": "1.0.0"
-      }
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.ai.navigation": {
-      "version": "file:com.unity.ai.navigation",
+      "version": "2.0.9",
       "depth": 0,
-      "source": "embedded",
+      "source": "registry",
       "dependencies": {
         "com.unity.modules.ai": "1.0.0"
-      }
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.analytics": {
-      "version": "file:com.unity.analytics",
+      "version": "3.8.2",
       "depth": 0,
-      "source": "embedded",
+      "source": "registry",
       "dependencies": {
-        "com.unity.services.analytics": "1.0.4",
-        "com.unity.ugui": "1.0.0"
-      }
+        "com.unity.ugui": "1.0.0",
+        "com.unity.services.analytics": "1.0.4"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.burst": {
       "version": "1.8.26",
@@ -136,13 +139,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.cinemachine": {
-      "version": "file:com.unity.cinemachine",
+      "version": "3.1.5",
       "depth": 0,
-      "source": "embedded",
+      "source": "registry",
       "dependencies": {
         "com.unity.splines": "2.0.0",
         "com.unity.modules.imgui": "1.0.0"
-      }
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.collab-proxy": {
       "version": "2.10.2",
@@ -227,16 +231,17 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.purchasing": {
-      "version": "file:com.unity.purchasing",
+      "version": "4.14.0",
       "depth": 0,
-      "source": "embedded",
+      "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0",
-        "com.unity.modules.unitywebrequest": "1.0.0",
-        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.services.core": "1.12.5",
         "com.unity.modules.androidjni": "1.0.0",
-        "com.unity.services.core": "1.12.5"
-      }
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.render-pipelines.core": {
       "version": "17.3.0",
@@ -278,7 +283,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.services.analytics": {
-      "version": "6.1.1",
+      "version": "6.2.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -378,13 +383,14 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.legacyinputhelpers": {
-      "version": "file:com.unity.xr.legacyinputhelpers",
+      "version": "2.1.13",
       "depth": 0,
-      "source": "embedded",
+      "source": "registry",
       "dependencies": {
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0"
-      }
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
