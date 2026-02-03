@@ -8,6 +8,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
+    - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
     - target: {fileID: 3943270467221178135, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.13
@@ -50,7 +70,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4104851149185980539, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: m_Name
-      value: Enemy (2) Variant
+      value: Skele3
       objectReference: {fileID: 0}
     - target: {fileID: 4225970735834768759, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: _data._json
@@ -60,6 +80,14 @@ PrefabInstance:
         Value","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 5060418170509648631, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 1.716
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085565212878692501, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7028146127667307494, guid: 0a9adf4eea49e454484dbf1ad9859a5b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
