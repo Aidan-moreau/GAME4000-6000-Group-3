@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 395935968826618733, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_Radius
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 395935968826618733, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: m_fontColor.b
       value: 0
@@ -85,9 +93,21 @@ PrefabInstance:
       value: 1.716
       objectReference: {fileID: 0}
     - target: {fileID: 9085565212878692501, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_Size.x
+      value: 2.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085565212878692501, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9085565212878692501, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 7028146127667307494, guid: 0a9adf4eea49e454484dbf1ad9859a5b, type: 3}
+      objectReference: {fileID: 21300000, guid: c92ebcc4fa2664d8884afe1cb5d630e6, type: 3}
+    - target: {fileID: 9085565212878692501, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
