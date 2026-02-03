@@ -17,6 +17,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_text
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: m_fontColor.b
       value: 0
       objectReference: {fileID: 0}
@@ -35,6 +43,14 @@ PrefabInstance:
     - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4278190080
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 2945452312372907639, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3943270467221178135, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -87,6 +103,10 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Bone
         Value","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060418170509648631, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.182
       objectReference: {fileID: 0}
     - target: {fileID: 5060418170509648631, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: m_AnchoredPosition.y
