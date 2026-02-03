@@ -738,11 +738,11 @@ RectTransform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1560393100}
-  - {fileID: 451154595}
-  - {fileID: 1875065035}
   - {fileID: 1263640180}
   - {fileID: 1413639140}
   - {fileID: 78040363}
+  - {fileID: 451154595}
+  - {fileID: 1875065035}
   - {fileID: 1508179062}
   - {fileID: 1505883145}
   - {fileID: 523173069}
@@ -1094,6 +1094,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Grid
       objectReference: {fileID: 0}
+    - target: {fileID: 6363869798118718405, guid: 7fe5397c611bb994e842fc8773a9b92c, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6697461670433492450, guid: 7fe5397c611bb994e842fc8773a9b92c, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Row1","value":{"$content":[0,1,2,3,4],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
@@ -1410,29 +1414,51 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Current
-      Bone Amount","value":{"$content":20,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Waves","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"},{"$content":8,"$type":"UnityEngine.Object"},{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+      Bone Amount","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Waves","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"},{"$content":8,"$type":"UnityEngine.Object"},{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"},{"$content":11,"$type":"UnityEngine.Object"},{"$content":12,"$type":"UnityEngine.Object"},{"$content":13,"$type":"UnityEngine.Object"},{"$content":14,"$type":"UnityEngine.Object"},{"$content":15,"$type":"UnityEngine.Object"},{"$content":16,"$type":"UnityEngine.Object"},{"$content":17,"$type":"UnityEngine.Object"},{"$content":18,"$type":"UnityEngine.Object"},{"$content":19,"$type":"UnityEngine.Object"},{"$content":20,"$type":"UnityEngine.Object"},{"$content":21,"$type":"UnityEngine.Object"},{"$content":22,"$type":"UnityEngine.Object"},{"$content":23,"$type":"UnityEngine.Object"},{"$content":24,"$type":"UnityEngine.Object"},{"$content":25,"$type":"UnityEngine.Object"},{"$content":26,"$type":"UnityEngine.Object"},{"$content":27,"$type":"UnityEngine.Object"},{"$content":28,"$type":"UnityEngine.Object"},{"$content":29,"$type":"UnityEngine.Object"},{"$content":30,"$type":"UnityEngine.Object"},{"$content":31,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
       Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Current
       Wave","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GridManager","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GridManager","value":{"$content":32,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerTurn","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"tmp","value":{"$content":12,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BonePile","value":{"$content":13,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BonePileText","value":{"$content":14,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
-      Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BonePileTextScaler","value":{"$content":15,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"tmp","value":{"$content":33,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BonePile","value":{"$content":34,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BonePileText","value":{"$content":35,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
+      Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BonePileTextScaler","value":{"$content":36,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GameOver","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 3813458163043538286, guid: 87bb8a86dc332490396e01a2cd0e24ff, type: 3}
     - {fileID: 3337173572172539007, guid: e81270b5507394ba4b9a08e008bc2047, type: 3}
     - {fileID: 6013177971179961292, guid: baa9754a850494e67935c505f6987af3, type: 3}
-    - {fileID: 124825918568552355, guid: d211ec03567ca41b4936707e4e993b75, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
     - {fileID: 4184981769602048474, guid: 62c789b750ea74b208a42735a48d8cfd, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
+    - {fileID: 124825918568552355, guid: d211ec03567ca41b4936707e4e993b75, type: 3}
+    - {fileID: 4387702278446394706, guid: b2d9d597cc851481a9975ca56be2a369, type: 3}
+    - {fileID: 4387702278446394706, guid: b2d9d597cc851481a9975ca56be2a369, type: 3}
+    - {fileID: 124825918568552355, guid: d211ec03567ca41b4936707e4e993b75, type: 3}
+    - {fileID: 3337173572172539007, guid: e81270b5507394ba4b9a08e008bc2047, type: 3}
+    - {fileID: 3813458163043538286, guid: 87bb8a86dc332490396e01a2cd0e24ff, type: 3}
     - {fileID: 4387702278446394706, guid: b2d9d597cc851481a9975ca56be2a369, type: 3}
     - {fileID: 3813458163043538286, guid: 87bb8a86dc332490396e01a2cd0e24ff, type: 3}
-    - {fileID: 5762941026681998275, guid: e111169e0c84d4b7b9bc6d4688637063, type: 3}
-    - {fileID: 4184981769602048474, guid: 62c789b750ea74b208a42735a48d8cfd, type: 3}
-    - {fileID: 6013177971179961292, guid: baa9754a850494e67935c505f6987af3, type: 3}
+    - {fileID: 3337173572172539007, guid: e81270b5507394ba4b9a08e008bc2047, type: 3}
+    - {fileID: 4387702278446394706, guid: b2d9d597cc851481a9975ca56be2a369, type: 3}
+    - {fileID: 2666689260652559523, guid: 99e5d57f3b190448cacd94415e6d757b, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
+    - {fileID: 3813458163043538286, guid: 87bb8a86dc332490396e01a2cd0e24ff, type: 3}
+    - {fileID: 3813458163043538286, guid: 87bb8a86dc332490396e01a2cd0e24ff, type: 3}
+    - {fileID: 4387702278446394706, guid: b2d9d597cc851481a9975ca56be2a369, type: 3}
+    - {fileID: 4387702278446394706, guid: b2d9d597cc851481a9975ca56be2a369, type: 3}
     - {fileID: 6495259154057055529, guid: 785ee0412f2284acd9231f0e5d9c1a6a, type: 3}
+    - {fileID: 6495259154057055529, guid: 785ee0412f2284acd9231f0e5d9c1a6a, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
+    - {fileID: 2529892734646390565, guid: 2c99b56179e994ace896a446005fb4f6, type: 3}
     - {fileID: 924508778}
     - {fileID: 1652087258}
     - {fileID: 1847357367}
@@ -1677,7 +1703,7 @@ RectTransform:
   m_GameObject: {fileID: 1505883144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.09, y: 0.09, z: 0.09}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 937862153}
@@ -1685,7 +1711,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.3, y: 9.7}
+  m_AnchoredPosition: {x: 0.3, y: 11.2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1505883146
@@ -1708,7 +1734,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8156352858992908715, guid: ccb9f152300cfd34190d15aa70c9422a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ccb9f152300cfd34190d15aa70c9422a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

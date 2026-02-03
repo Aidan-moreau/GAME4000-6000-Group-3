@@ -85,12 +85,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -8156352858992908715, guid: ccb9f152300cfd34190d15aa70c9422a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ccb9f152300cfd34190d15aa70c9422a, type: 3}
   m_Color: {r: 1, g: 0.95837766, b: 0.7201257, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.6666666, y: 1.6666666}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -108,7 +108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Damage","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Damage","value":{"$content":20,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Speed","value":{"$content":20.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CurrentRow","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"BoneCost","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
@@ -191,15 +191,15 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.000034198165, y: -0.002592057}
+  m_Offset: {x: 0.020306587, y: -0.060708478}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.2, y: 0.2}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 1.6666666, y: 1.6666666}
+    newSize: {x: 1.6666666, y: 1.6666666}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.74486876, y: 0.33544058}
+  m_Size: {x: 0.46009827, y: 0.45167342}
   m_EdgeRadius: 0
