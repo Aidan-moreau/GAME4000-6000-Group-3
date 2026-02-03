@@ -171,7 +171,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -256160365432259673, guid: 55ed46433987b4ac7b15befa4390cd79, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -319,6 +320,10 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[15]'
       value: 
       objectReference: {fileID: 1238638816}
+    - target: {fileID: 6697461670433492450, guid: 7fe5397c611bb994e842fc8773a9b92c, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[16]'
+      value: 
+      objectReference: {fileID: 924508778}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -744,7 +749,8 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LargeBullet","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CurrentSelectedBullet","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ChargeLevel","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GameManager","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 804798583}
     - {fileID: 869182509}
@@ -752,6 +758,7 @@ MonoBehaviour:
     - {fileID: 6287431711940681779, guid: 04bf21d509946714c976d4ad2e9dfbf2, type: 3}
     - {fileID: 6287431711940681779, guid: 93dd26f5eb4e1e846afdf5956ddd9743, type: 3}
     - {fileID: 6287431711940681779, guid: 265d2437cbec8834f9740c4a516f4d02, type: 3}
+    - {fileID: 1238638816}
 --- !u!212 &1962834633
 SpriteRenderer:
   serializedVersion: 2

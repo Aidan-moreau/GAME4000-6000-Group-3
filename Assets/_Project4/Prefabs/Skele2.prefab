@@ -50,11 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4104851149185980539, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: m_Name
-      value: Enemy (1) Variant
+      value: Skele2
       objectReference: {fileID: 0}
     - target: {fileID: 4225970735834768759, guid: 8a6db970be562ae43a9cf1256c76d9ac, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Health","value":{"$content":20,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Health","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Damage","value":{"$content":6,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Bone
         Value","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
