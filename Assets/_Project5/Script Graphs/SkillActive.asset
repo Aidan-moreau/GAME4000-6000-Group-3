@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: SkillActive
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":68.75491,"y":-11.16209},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-244.0,"y":-166.0},"guid":"ca5e0789-03ea-40da-8606-700de2597963","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"defaultValues":{},"position":{"x":-30.0,"y":-103.0},"guid":"40043999-6bf8-4fda-9db4-9849ab2ae38c","$version":"A","$type":"Unity.VisualScripting.If","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Unlocked","$type":"System.String"},"object":null},"position":{"x":-254.0,"y":-46.0},"guid":"114928be-4016-4c4f-8cc2-dc0862570a80","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"chainable":false,"member":{"name":"color","parameterTypes":null,"targetType":"UnityEngine.UI.Image","targetTypeName":"UnityEngine.UI.Image","$version":"A"},"defaultValues":{"target":null,"input":{"r":0.3018868,"g":0.3018868,"b":0.3018868,"a":0.4196078,"$type":"UnityEngine.Color"}},"position":{"x":145.0,"y":-19.0},"guid":"6b60531f-5cda-488d-a412-f3db17edf79f","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"15"},{"chainable":false,"member":{"name":"color","parameterTypes":null,"targetType":"UnityEngine.UI.Image","targetTypeName":"UnityEngine.UI.Image","$version":"A"},"defaultValues":{"target":null,"input":{"r":1.0,"g":1.0,"b":1.0,"a":1.0,"$type":"UnityEngine.Color"}},"position":{"x":150.0,"y":-169.0},"guid":"c35ecc28-98c3-4fed-a44f-5911e7bb51c2","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"18"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"999d3a9a-f13c-4004-a55d-8c6fd8c2b8e0","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"ifFalse","destinationUnit":{"$ref":"15"},"destinationKey":"assign","guid":"b0a363d7-f4ce-4350-acaf-cb67466d44dc","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"18"},"destinationKey":"assign","guid":"a10dc32d-40dc-45a6-93d8-d318bd5eaa07","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"condition","guid":"a2f0fdc4-bd9a-4a4d-b818-4cc184e8c55e","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-278.0,"yMin":-219.5,"xMax":316.0,"yMax":152.5},"label":"Temp
+      Graying out skills","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"60fdf8d8-7bd7-43b4-a4fb-d35da7b594b2","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
