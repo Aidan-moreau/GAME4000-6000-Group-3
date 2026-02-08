@@ -14,6 +14,7 @@ TagManager:
   - Rock
   - End
   - Gun
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -53,6 +54,9 @@ TagManager:
     locked: 0
   - name: UI Elements
     uniqueID: 3150130193
+    locked: 0
+  - name: Indicators
+    uniqueID: 2137508853
     locked: 0
   m_RenderingLayers:
   - Default
