@@ -12,10 +12,10 @@ EditorBuildSettings:
     path: Assets/Project3/Scenes/Final Scene.unity
     guid: 538d2882af1cc48ea845761ab2e0553a
   - enabled: 1
-    path: Assets/_Project4/Scenes/StartScreen.unity
+    path: Assets/Project4/Scenes/StartScreen.unity
     guid: 5984dfaafa1a1a44dae15792a18360b0
   - enabled: 1
-    path: Assets/_Project4/Scenes/Final Scene.unity
+    path: Assets/Project4/Scenes/Final Scene.unity
     guid: d3713471807bd8043bcd6992475f5237
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
