@@ -58,5 +58,17 @@ TagManager:
   - name: Indicators
     uniqueID: 2137508853
     locked: 0
+  - name: Explosion
+    uniqueID: 777550313
+    locked: 0
+  - name: Boss
+    uniqueID: 3186820613
+    locked: 0
+  - name: Enemy
+    uniqueID: 3064175207
+    locked: 0
+  - name: Player
+    uniqueID: 1996537331
+    locked: 0
   m_RenderingLayers:
   - Default
