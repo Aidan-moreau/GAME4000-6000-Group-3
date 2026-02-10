@@ -15,6 +15,7 @@ TagManager:
   - End
   - Gun
   - Enemy
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -57,6 +58,9 @@ TagManager:
     locked: 0
   - name: Indicators
     uniqueID: 2137508853
+    locked: 0
+  - name: Pits
+    uniqueID: 2580340499
     locked: 0
   - name: Explosion
     uniqueID: 777550313
