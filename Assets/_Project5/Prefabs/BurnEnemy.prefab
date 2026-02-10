@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 403398304821042790, guid: f44578770f62401409d10e92f76a5426, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 403398304821042790, guid: f44578770f62401409d10e92f76a5426, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.175
+      objectReference: {fileID: 0}
     - target: {fileID: 422355133440197471, guid: f44578770f62401409d10e92f76a5426, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -38,7 +46,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3623143268046326349, guid: f44578770f62401409d10e92f76a5426, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"EnemyHealth","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"EnemyHealth","value":{"$content":7,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MovementSpeed","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Damage","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DetectionRange","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
@@ -48,11 +56,40 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ExplosionRange","value":{"$content":2.5,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"ExplosionDamage","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HealthSlider","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Slider,
-        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Sprite","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 3623143268046326349, guid: f44578770f62401409d10e92f76a5426, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973164326910174533, guid: f44578770f62401409d10e92f76a5426, type: 3}
+      propertyPath: m_Radius
+      value: 0.5220752
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973164326910174533, guid: f44578770f62401409d10e92f76a5426, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0005271435
+      objectReference: {fileID: 0}
+    - target: {fileID: 3973164326910174533, guid: f44578770f62401409d10e92f76a5426, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.18984681
+      objectReference: {fileID: 0}
+    - target: {fileID: 5258638809226701683, guid: f44578770f62401409d10e92f76a5426, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e4412deff4baa444909c7875055c9e8, type: 3}
+    - target: {fileID: 5999412445852693844, guid: f44578770f62401409d10e92f76a5426, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7e4412deff4baa444909c7875055c9e8, type: 3}
+    - target: {fileID: 5999412445852693844, guid: f44578770f62401409d10e92f76a5426, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5999412445852693844, guid: f44578770f62401409d10e92f76a5426, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1230792089
       objectReference: {fileID: 0}
     - target: {fileID: 8193934642436259133, guid: f44578770f62401409d10e92f76a5426, type: 3}
       propertyPath: m_LocalPosition.x
@@ -94,38 +131,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8690213345442369785, guid: f44578770f62401409d10e92f76a5426, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.425
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 182223737164480069, guid: f44578770f62401409d10e92f76a5426, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2950710853369199360}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f44578770f62401409d10e92f76a5426, type: 3}
---- !u!1 &3917773050566524531 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 182223737164480069, guid: f44578770f62401409d10e92f76a5426, type: 3}
-  m_PrefabInstance: {fileID: 3808315010183626806}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &2950710853369199360
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3917773050566524531}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 913c26ae26736c044a63ce87ad1d7445, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
