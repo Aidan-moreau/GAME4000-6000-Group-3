@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: d8a03fe7ca794604c96d6c286dd5341d, type: 3}
     - target: {fileID: 876743227331789521, guid: 757f9ccd5069a1c49a608fd20f91a6ca, type: 3}
       propertyPath: m_SortingLayer
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 876743227331789521, guid: 757f9ccd5069a1c49a608fd20f91a6ca, type: 3}
       propertyPath: m_SortingLayerID
@@ -62,6 +62,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3377229818815974072, guid: 757f9ccd5069a1c49a608fd20f91a6ca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5166648771441317708, guid: 757f9ccd5069a1c49a608fd20f91a6ca, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5166648771441317708, guid: 757f9ccd5069a1c49a608fd20f91a6ca, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6535955909033080026, guid: 757f9ccd5069a1c49a608fd20f91a6ca, type: 3}
@@ -146,6 +154,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6087366142366178840, guid: 757f9ccd5069a1c49a608fd20f91a6ca, type: 3}
     - {fileID: 6535955909033080026, guid: 757f9ccd5069a1c49a608fd20f91a6ca, type: 3}
+    - {fileID: -8607506890383701086, guid: 757f9ccd5069a1c49a608fd20f91a6ca, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

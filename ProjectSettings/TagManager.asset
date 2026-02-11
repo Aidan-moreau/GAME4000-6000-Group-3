@@ -63,6 +63,9 @@ TagManager:
   - name: Explosion
     uniqueID: 777550313
     locked: 0
+  - name: Shockwave
+    uniqueID: 2097872621
+    locked: 0
   - name: Boss
     uniqueID: 3186820613
     locked: 0
