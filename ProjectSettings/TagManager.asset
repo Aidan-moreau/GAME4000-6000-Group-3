@@ -72,6 +72,9 @@ TagManager:
   - name: Player
     uniqueID: 1996537331
     locked: 0
+  - name: Level Barriers
+    uniqueID: 3356706839
+    locked: 0
   - name: UI Elements
     uniqueID: 3150130193
     locked: 0
