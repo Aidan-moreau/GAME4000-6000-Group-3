@@ -66,17 +66,17 @@ TagManager:
   - name: Shockwave
     uniqueID: 2097872621
     locked: 0
-  - name: Boss
-    uniqueID: 3186820613
-    locked: 0
   - name: Enemy
     uniqueID: 3064175207
     locked: 0
-  - name: Player
-    uniqueID: 1996537331
-    locked: 0
   - name: Level Barriers
     uniqueID: 3356706839
+    locked: 0
+  - name: Boss
+    uniqueID: 3186820613
+    locked: 0
+  - name: Player
+    uniqueID: 1996537331
     locked: 0
   - name: UI Elements
     uniqueID: 3150130193
