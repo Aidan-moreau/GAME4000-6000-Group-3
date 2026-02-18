@@ -321,16 +321,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1225847948 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4459235633312635102, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
-  m_PrefabInstance: {fileID: 6225230024775514267}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1233345865 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3077209878522816563, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
-  m_PrefabInstance: {fileID: 6225230024775514267}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1724636025
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,7 +382,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &6225230024775514267
+--- !u!1001 &5082016192622045703
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -400,85 +390,47 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4320289526766963107, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":6.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MoveDirectionVector","value":{"x":0.0,"y":0.0,"$type":"UnityEngine.Vector2"},"typeHandle":{"Identification":"UnityEngine.Vector2,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlayerHealth","value":{"$content":150,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Mana","value":{"$content":100,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Experience","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"PoisonDuration","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"BurnDuration","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RadiationDuration","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IgniteDuration","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"WeaponCenter","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Weapon","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HealingRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AOERank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"DamageSpellRank","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LesserResistance","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GreaterResistance","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"AOE","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MagicAttackTargetting","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4320289526766963107, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
-      propertyPath: _data._objectReferences.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4320289526766963107, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[2]'
-      value: 
-      objectReference: {fileID: 1233345865}
-    - target: {fileID: 4320289526766963107, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[3]'
-      value: 
-      objectReference: {fileID: 1225847948}
-    - target: {fileID: 4521635422354410626, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 1516653681275769710, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 5093204252489170928, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5103815546686772779, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 7861114770556488135, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.7
       objectReference: {fileID: 0}
-    - target: {fileID: 5103815546686772779, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 7861114770556488135, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 5103815546686772779, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 7861114770556488135, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5103815546686772779, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 7861114770556488135, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 5103815546686772779, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 7861114770556488135, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5103815546686772779, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 7861114770556488135, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5103815546686772779, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 7861114770556488135, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5103815546686772779, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 7861114770556488135, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5103815546686772779, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 7861114770556488135, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5103815546686772779, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+    - target: {fileID: 7861114770556488135, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
@@ -486,12 +438,12 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b46e08a679362c34c813ee124b33ace7, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: f5f9a097e378a68409eea5b8094fa256, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 894307915}
-  - {fileID: 6225230024775514267}
+  - {fileID: 5082016192622045703}
   - {fileID: 1724636028}
   - {fileID: 129769094}
