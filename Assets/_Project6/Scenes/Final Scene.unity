@@ -1496,6 +1496,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 368823935469213476, guid: 26120d75cb541bb43ab1de850030ef89, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Unlocked","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Cost","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 527373085779454278, guid: 26120d75cb541bb43ab1de850030ef89, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -9186212426215376321, guid: 82428ee27e9ad9845bd00f1a72e7c72d, type: 3}
     - target: {fileID: 997115206760111090, guid: 26120d75cb541bb43ab1de850030ef89, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1528,6 +1538,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -50
       objectReference: {fileID: 0}
+    - target: {fileID: 3306676558917443910, guid: 26120d75cb541bb43ab1de850030ef89, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dd820eb8fa731444ab8c2f30a028cd6d, type: 3}
     - target: {fileID: 4643972306292565702, guid: 26120d75cb541bb43ab1de850030ef89, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Healthbar","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
@@ -1563,6 +1577,12 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[6]'
       value: 
       objectReference: {fileID: 1451112979}
+    - target: {fileID: 5169207788854160594, guid: 26120d75cb541bb43ab1de850030ef89, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Unlocked","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Cost","value":{"$content":15,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 5687575505215235472, guid: 26120d75cb541bb43ab1de850030ef89, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
