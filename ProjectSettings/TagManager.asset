@@ -73,8 +73,17 @@ TagManager:
   - name: Level Barriers
     uniqueID: 3356706839
     locked: 0
+  - name: Dirt
+    uniqueID: 336129079
+    locked: 0
+  - name: Grass
+    uniqueID: 3703912825
+    locked: 0
   - name: Boss
     uniqueID: 3186820613
+    locked: 0
+  - name: Ground
+    uniqueID: 3114024541
     locked: 0
   - name: Player
     uniqueID: 1996537331
