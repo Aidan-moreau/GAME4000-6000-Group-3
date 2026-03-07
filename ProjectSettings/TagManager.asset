@@ -85,6 +85,9 @@ TagManager:
   - name: Player
     uniqueID: 1996537331
     locked: 0
+  - name: Tiles
+    uniqueID: 1155173851
+    locked: 0
   - name: UI Elements
     uniqueID: 3150130193
     locked: 0
