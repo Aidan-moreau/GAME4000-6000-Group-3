@@ -18,6 +18,7 @@ TagManager:
   - Weapon
   - CenterPoint
   - ParryShield
+  - Beehive
   layers:
   - Default
   - TransparentFX
