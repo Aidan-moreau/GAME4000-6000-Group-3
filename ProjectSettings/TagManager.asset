@@ -18,6 +18,7 @@ TagManager:
   - Weapon
   - CenterPoint
   - ParryShield
+  - UIPanel
   layers:
   - Default
   - TransparentFX
