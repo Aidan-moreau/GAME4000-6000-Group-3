@@ -19,6 +19,7 @@ TagManager:
   - CenterPoint
   - ParryShield
   - Beehive
+  - UIPanel
   layers:
   - Default
   - TransparentFX
