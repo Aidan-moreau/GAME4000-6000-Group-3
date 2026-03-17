@@ -858,6 +858,28 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 626185892908385067}
   m_SourcePrefab: {fileID: 100100000, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+--- !u!114 &2430721755384181296 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 785570905654360060, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+  m_PrefabInstance: {fileID: 3124724210838275532}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!114 &2471002244898001121 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 655136780990977325, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+  m_PrefabInstance: {fileID: 3124724210838275532}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!224 &3459728029581307154 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1972062420733257950, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
@@ -937,8 +959,12 @@ MonoBehaviour:
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Count","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Price","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IncrementJarButton","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DecrementJarButton","value":null,"typeHandle":{"Identification":"UnityEngine.UI.Button,
-      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DecrementJarButton","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"IncrementPackagingCountButton","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"DecrementPackagingCountButton","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"OverShopObject","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GameManager","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 7671889501253232684}
     - {fileID: 7142214107338912440}
@@ -948,7 +974,10 @@ MonoBehaviour:
     - {fileID: 3714420929628838907}
     - {fileID: 4333096841560694769}
     - {fileID: 8510480846948462833}
+    - {fileID: 2430721755384181296}
     - {fileID: 6758963188539927313}
+    - {fileID: 8113420452715560957}
+    - {fileID: 2471002244898001121}
 --- !u!114 &626185892908385067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -990,6 +1019,17 @@ MonoBehaviour:
 --- !u!114 &7671889501253232684 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4694236010843434464, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+  m_PrefabInstance: {fileID: 3124724210838275532}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!114 &8113420452715560957 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6612947777522235953, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
   m_PrefabInstance: {fileID: 3124724210838275532}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
