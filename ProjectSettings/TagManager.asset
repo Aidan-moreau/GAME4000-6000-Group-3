@@ -18,6 +18,7 @@ TagManager:
   - Weapon
   - CenterPoint
   - ParryShield
+  - Beehive
   - UIPanel
   layers:
   - Default
