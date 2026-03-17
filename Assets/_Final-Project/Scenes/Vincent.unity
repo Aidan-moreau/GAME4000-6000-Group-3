@@ -2106,7 +2106,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4050059436002068400, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4305322732154588135, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
       propertyPath: m_IsActive
@@ -2123,6 +2123,10 @@ PrefabInstance:
     - target: {fileID: 8125636137059664263, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
       propertyPath: m_Name
       value: Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125636137059664263, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
