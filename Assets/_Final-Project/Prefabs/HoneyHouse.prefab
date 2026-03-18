@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 1142633188500000028}
   m_Layer: 0
   m_Name: HoneyHouse
-  m_TagString: Untagged
+  m_TagString: HoneyHouse
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
