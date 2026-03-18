@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2887888707737766869}
   - component: {fileID: 7629536746496102386}
   - component: {fileID: 4696742559910660458}
+  - component: {fileID: 8857556926656754957}
+  - component: {fileID: 2581752138413496605}
   m_Layer: 5
   m_Name: HUD
   m_TagString: Untagged
@@ -48,7 +50,7 @@ Canvas:
   m_GameObject: {fileID: 7404134560348942226}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
@@ -74,10 +76,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -102,6 +104,36 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &8857556926656754957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7404134560348942226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &2581752138413496605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7404134560348942226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!1001 &5820525763516948710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -124,7 +156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_Pivot.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_Pivot.y
@@ -132,7 +164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_AnchorMax.y
@@ -140,7 +172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_AnchorMin.y
@@ -152,11 +184,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 58.4226
+      value: 80.4103
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_LocalScale.y
@@ -196,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000030518
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -216,12 +248,46 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8505357200041425803, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 424.9
       objectReference: {fileID: 0}
+    - target: {fileID: 8823562047370542635, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"HoneyText","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HoneyJarText","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"JarText","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoneyText","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimerText","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GameManager","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8823562047370542635, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8823562047370542635, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[0]'
+      value: 
+      objectReference: {fileID: 7997392651406871279}
+    - target: {fileID: 8823562047370542635, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[1]'
+      value: 
+      objectReference: {fileID: 6249144388543508723}
+    - target: {fileID: 8823562047370542635, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[2]'
+      value: 
+      objectReference: {fileID: 4987861540060661668}
+    - target: {fileID: 8823562047370542635, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1265864488417822505}
+    - target: {fileID: 8823562047370542635, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[4]'
+      value: 
+      objectReference: {fileID: 8359153309441281152}
     - target: {fileID: 8983360920440867191, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
       propertyPath: m_Name
       value: BackgroundPanel
@@ -231,8 +297,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+--- !u!1 &1265864488417822505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4708487419178182607, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+  m_PrefabInstance: {fileID: 5820525763516948710}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2036350324438656582 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5513593980476262048, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+  m_PrefabInstance: {fileID: 5820525763516948710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4987861540060661668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1584942658014013250, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+  m_PrefabInstance: {fileID: 5820525763516948710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6249144388543508723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 468307160731553813, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+  m_PrefabInstance: {fileID: 5820525763516948710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7997392651406871279 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4484137625032256009, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
+  m_PrefabInstance: {fileID: 5820525763516948710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8359153309441281152 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2650092345779334246, guid: ca87dee1b24d87d4a90569dc9b51ff72, type: 3}
   m_PrefabInstance: {fileID: 5820525763516948710}
   m_PrefabAsset: {fileID: 0}
