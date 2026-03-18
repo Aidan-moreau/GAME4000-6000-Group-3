@@ -32,12 +32,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Project6/Scenes/Final Scene.unity
     guid: cacd27ed026160142b4892adc0abdb87
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Project7/Scenes/StartScreen.unity
     guid: 2e28e0ebdb3213148951620e9c593d15
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Project7/Scenes/Final Scene.unity
     guid: 1f92715feee4e8640891ca7e1d30479e
+  - enabled: 1
+    path: Assets/_Final-Project/Scenes/Aidan 2.unity
+    guid: 7020c325a2250bd4091c527da626e80d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
