@@ -1541,17 +1541,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1098288907 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1238165621613954933, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
+--- !u!1 &1098288905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8359153309441281152, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
   m_PrefabInstance: {fileID: 3941591204870279793}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &1508262771 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7404134560348942226, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
@@ -1587,17 +1581,11 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &1575167130 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5166413410837838033, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
+--- !u!1 &1575167128 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6249144388543508723, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
   m_PrefabInstance: {fileID: 3941591204870279793}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &1590013969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,17 +1661,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1709087353 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5471489852056417906, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
+--- !u!1 &1709087351 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4987861540060661668, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
   m_PrefabInstance: {fileID: 3941591204870279793}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &1802064709
 GameObject:
   m_ObjectHideFlags: 0
@@ -1852,17 +1834,11 @@ Transform:
   - {fileID: 2062741427}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1986862493 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7463712378714613903, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
+--- !u!1 &1986862491 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7997392651406871279, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
   m_PrefabInstance: {fileID: 3941591204870279793}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &1998094214
 GameObject:
   m_ObjectHideFlags: 0
@@ -2047,17 +2023,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1945642709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2066966645 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8359752564523991018, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
+--- !u!1 &2066966643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1265864488417822505, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
   m_PrefabInstance: {fileID: 3941591204870279793}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1001 &1779193862188786598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2164,12 +2134,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3077435984771309261, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"HoneyText","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
-        Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HoneyJarText","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
-        Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"JarText","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
-        Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoneyText","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
-        Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimerText","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"TMPro.TextMeshProUGUI,
-        Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GameManager","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"HoneyText","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"HoneyJarText","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"JarText","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MoneyText","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"TimerText","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GameManager","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 3077435984771309261, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
@@ -2179,23 +2149,23 @@ PrefabInstance:
     - target: {fileID: 3077435984771309261, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
       value: 
-      objectReference: {fileID: 1986862493}
+      objectReference: {fileID: 1986862491}
     - target: {fileID: 3077435984771309261, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
-      objectReference: {fileID: 1575167130}
+      objectReference: {fileID: 1575167128}
     - target: {fileID: 3077435984771309261, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
       propertyPath: '_data._objectReferences.Array.data[2]'
       value: 
-      objectReference: {fileID: 1709087353}
+      objectReference: {fileID: 1709087351}
     - target: {fileID: 3077435984771309261, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
       propertyPath: '_data._objectReferences.Array.data[3]'
       value: 
-      objectReference: {fileID: 2066966645}
+      objectReference: {fileID: 2066966643}
     - target: {fileID: 3077435984771309261, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
       propertyPath: '_data._objectReferences.Array.data[4]'
       value: 
-      objectReference: {fileID: 1098288907}
+      objectReference: {fileID: 1098288905}
     - target: {fileID: 3077435984771309261, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
       propertyPath: '_data._objectReferences.Array.data[5]'
       value: 
