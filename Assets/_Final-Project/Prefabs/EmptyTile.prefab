@@ -696,7 +696,9 @@ PrefabInstance:
       propertyPath: m_text
       value: 'Count: 0'
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5231961291298870046, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+    - {fileID: 7768335349603604073, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 1972062420733257950, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
