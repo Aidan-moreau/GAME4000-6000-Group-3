@@ -1598,7 +1598,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"MaxIndestructible","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LastTintedTile","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!4 &516681302
 Transform:
@@ -2447,11 +2449,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1390238259}
   m_CullTransparentMesh: 1
---- !u!1 &1493978898 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1601590288787868346, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-  m_PrefabInstance: {fileID: 7112584259593161664}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1536912029
 GameObject:
   m_ObjectHideFlags: 0
@@ -2607,7 +2604,7 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Obstruction","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1493978898}
+    - {fileID: 0}
 --- !u!1 &1597865538
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,78 +2760,12 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Obstruction","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1493978898}
---- !u!1001 &7112584259593161664
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 816993994361211604, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.30925
-      objectReference: {fileID: 0}
-    - target: {fileID: 816993994361211604, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.58118
-      objectReference: {fileID: 0}
-    - target: {fileID: 816993994361211604, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 816993994361211604, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 816993994361211604, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 816993994361211604, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 816993994361211604, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 816993994361211604, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 816993994361211604, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 816993994361211604, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1601590288787868346, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: m_Name
-      value: Obstruction
-      objectReference: {fileID: 0}
-    - target: {fileID: 7897596044112921359, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1160470244}
-    - target: {fileID: 7897596044112921359, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
-      propertyPath: '_data._objectReferences.Array.data[1]'
-      value: 
-      objectReference: {fileID: 645866605}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 1fc71a60dfed879418001187df66b27d, type: 3}
+    - {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1342806815}
-  - {fileID: 7112584259593161664}
   - {fileID: 516681302}
   - {fileID: 895617943}
   - {fileID: 173694883}
