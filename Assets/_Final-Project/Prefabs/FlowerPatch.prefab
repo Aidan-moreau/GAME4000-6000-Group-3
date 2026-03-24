@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 4902908182183197892}
   - component: {fileID: 5123393126286812152}
   m_Layer: 0
-  m_Name: FlowerBed
-  m_TagString: Untagged
+  m_Name: FlowerPatch
+  m_TagString: FlowerPatch
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
