@@ -25,6 +25,7 @@ TagManager:
   - HoneyHouse
   - Obstruction
   - WildBeehive
+  - Indestructible
   layers:
   - Default
   - TransparentFX
