@@ -23,6 +23,7 @@ TagManager:
   - EventSystem
   - Tile
   - HoneyHouse
+  - Obstruction
   layers:
   - Default
   - TransparentFX
