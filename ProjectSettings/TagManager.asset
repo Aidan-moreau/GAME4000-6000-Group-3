@@ -24,6 +24,9 @@ TagManager:
   - Tile
   - HoneyHouse
   - Obstruction
+  - WildBeehive
+  - Indestructible
+  - FlowerPatch
   layers:
   - Default
   - TransparentFX
