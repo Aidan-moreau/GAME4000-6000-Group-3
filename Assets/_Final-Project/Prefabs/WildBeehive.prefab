@@ -102,6 +102,7 @@ GameObject:
   - component: {fileID: 2277940179538051095}
   - component: {fileID: 845258334973042516}
   - component: {fileID: 6201488350570138145}
+  - component: {fileID: 7228272095676930307}
   m_Layer: 0
   m_Name: WildBeehive
   m_TagString: WildBeehive
@@ -173,6 +174,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 4b85a68caefe42b45b1f7e93ec043f70, type: 2}
+--- !u!114 &7228272095676930307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127600788332219453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 5e0e7a65726767d45b8cce3d8a8f33d3, type: 2}
 --- !u!1 &1917314216699181379
 GameObject:
   m_ObjectHideFlags: 0
