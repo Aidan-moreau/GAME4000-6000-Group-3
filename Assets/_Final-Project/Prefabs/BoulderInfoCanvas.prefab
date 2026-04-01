@@ -186,7 +186,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -110.80004, y: -187.4006}
-  m_SizeDelta: {x: 45.9582, y: 46.0033}
+  m_SizeDelta: {x: 35.82, y: 46.0033}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6789157402975215445
 CanvasRenderer:
@@ -216,7 +216,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -22463150787872415, guid: 6d95ad312f4c9ed4784933f21edabe21, type: 3}
+  m_Sprite: {fileID: 9175454860888007952, guid: 0f75fea9c097c24488a9b6b2cf2746f2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -548,7 +548,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3253652906584744922, guid: a92d578df4d8bf847b8ab3a07ff8ecbc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 59b2ba4a210e52e4c900813e62150539, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -942,7 +942,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59b2ba4a210e52e4c900813e62150539, type: 3}
+  m_Sprite: {fileID: 3253652906584744922, guid: a92d578df4d8bf847b8ab3a07ff8ecbc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &6052142785232817584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,11 +1118,19 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Stat2","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Description","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SelectedObject","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Statue1Button","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Statue2Button","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Statue3Button","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Statue4Button","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 3070437037578808284}
     - {fileID: 3747059862868025547}
     - {fileID: 1127600788332219453, guid: ccb8f8e905afed34dade5f63d13afed5, type: 3}
+    - {fileID: 2960598466646165989}
+    - {fileID: 7769326982097731157}
+    - {fileID: 2163941577929858778}
+    - {fileID: 5527328333792729761}
 --- !u!114 &8396447918425458013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1138,7 +1146,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 4c2f4af8dedc98f4cbbf2df33c720702, type: 2}
+    - {fileID: 11400000, guid: 5fb93c69fd137584487d340bbbdbee05, type: 2}
 --- !u!1 &3747059862868025547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,7 +1563,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 9175454860888007952, guid: 0f75fea9c097c24488a9b6b2cf2746f2, type: 3}
+  m_Sprite: {fileID: -22463150787872415, guid: 6d95ad312f4c9ed4784933f21edabe21, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
