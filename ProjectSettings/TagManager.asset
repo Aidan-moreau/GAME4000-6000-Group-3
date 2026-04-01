@@ -27,6 +27,9 @@ TagManager:
   - WildBeehive
   - Indestructible
   - FlowerPatch
+  - Bee
+  - Boulder
+  - Statue
   layers:
   - Default
   - TransparentFX
