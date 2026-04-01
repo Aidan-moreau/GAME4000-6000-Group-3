@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: BeeSpawning
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Bee
+      Spawning","summary":"Spawns bees after some amount of time","pan":{"x":337.6,"y":143.4},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"2de155ec-35ed-43f7-aeea-2f10903ea1ed","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"c447b987-90a5-4842-b321-e6d0bba41601","$version":"A","$type":"Unity.VisualScripting.Update"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"GridManager","$type":"System.String"}},"position":{"x":198.0,"y":160.0},"guid":"c527a357-b25d-4e4e-a6ac-056cf0879764","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"13"},{"coroutine":false,"defaultValues":{"key":{"$content":"Space","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Unity.VisualScripting.PressState"}},"position":{"x":87.0,"y":32.0},"guid":"ed051c25-d822-4aaa-960f-7cc3ee15cda8","$version":"A","$type":"Unity.VisualScripting.OnKeyboardInput","$id":"15"},{"argumentCount":1,"defaultValues":{"name":{"$content":"SpawnABee","$type":"System.String"},"target":null},"position":{"x":463.0,"y":41.0},"guid":"be2a9da8-570c-4ca6-9f0e-aad13303880f","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"17"},{"defaultValues":{},"position":{"x":154.0,"y":279.0},"guid":"d14ebd43-72dc-42b5-a6e9-c12053852f24","$version":"A","$type":"Unity.VisualScripting.This","$id":"19"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"9035a1ed-88a5-46ea-8e5a-0e887f177d07","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"17"},"destinationKey":"target","guid":"5403e8ab-3375-4e11-bdef-ac3d5a0843ab","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"self","destinationUnit":{"$ref":"17"},"destinationKey":"argument_0","guid":"cac16ac6-995d-4838-a0d9-878b5fa3e37f","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
