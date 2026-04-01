@@ -333,6 +333,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7112052895549744740, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
   m_PrefabInstance: {fileID: 1754902521}
   m_PrefabAsset: {fileID: 0}
+--- !u!224 &435273626 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1099364019280004951, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+  m_PrefabInstance: {fileID: 1754902521}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &574963430
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,6 +888,11 @@ Canvas:
   m_SortingLayerID: -1144837103
   m_SortingOrder: 10
   m_TargetDisplay: 0
+--- !u!224 &1364800332 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6988553736165480430, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+  m_PrefabInstance: {fileID: 1754902521}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1422205257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1243,6 +1253,126 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1662204595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1662204596}
+  - component: {fileID: 1662204598}
+  - component: {fileID: 1662204597}
+  - component: {fileID: 1662204599}
+  m_Layer: 5
+  m_Name: BeehiveCheap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1662204596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662204595}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9998692, y: 0.9998692, z: 0.9998692}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1364800332}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -139.00009, y: 1}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1662204597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662204595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7132075, g: 0.57842636, b: 0.41312206, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1662204598
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662204595}
+  m_CullTransparentMesh: 1
+--- !u!114 &1662204599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662204595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1662204597}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1672802393
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,6 +1464,126 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1684801592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1684801593}
+  - component: {fileID: 1684801595}
+  - component: {fileID: 1684801594}
+  - component: {fileID: 1684801596}
+  m_Layer: 5
+  m_Name: BeehiveCheap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1684801593
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684801592}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9998692, y: 0.9998692, z: 0.9998692}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 435273626}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -138.99991, y: 0.6}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1684801594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684801592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.7132075, g: 0.57842636, b: 0.41312206, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1684801595
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684801592}
+  m_CullTransparentMesh: 1
+--- !u!114 &1684801596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684801592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1684801594}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!95 &1738160422 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 7871988986080927782, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
@@ -1347,6 +1597,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 68238615082115173, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_Name
+      value: BeehiveExpensive
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122816826901173985, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_text
+      value: Purchase a Beehive for $100
+      objectReference: {fileID: 0}
     - target: {fileID: 1972062420733257950, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1427,6 +1685,78 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2061755333840559757, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_text
+      value: Beehive
+      objectReference: {fileID: 0}
+    - target: {fileID: 3290989447262934482, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AddBeehiveButton","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AddFlowerBedButton","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AddFlowerExpensive","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AddBeehiveExpensive","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+        UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3290989447262934482, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3290989447262934482, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1684801596}
+    - target: {fileID: 3290989447262934482, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1662204599}
+    - target: {fileID: 4050059436002068400, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4368394479893935397, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_Name
+      value: FlowerCheap
+      objectReference: {fileID: 0}
+    - target: {fileID: 4736386607158676705, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_Name
+      value: BeehiveCheap
+      objectReference: {fileID: 0}
+    - target: {fileID: 5972588503922678869, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_text
+      value: Purchase a Beehive with 1 Captured Queen and $25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187745584126075731, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"AddBeehiveButton","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AddFlowerBedButton","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AddBeehiveExpensive","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AddFlowerExpensive","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187745584126075731, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187745584126075731, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[2]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6187745584126075731, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[3]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6726218378545494819, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_text
+      value: Purchase a Flower Bed for $75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6933932406474225084, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_text
+      value: Purchase a Flower Bed with 1 Jar of Water and $10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7608560129889857541, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_text
+      value: Flower Bed
+      objectReference: {fileID: 0}
     - target: {fileID: 7953167946918017193, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1435,9 +1765,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Panel
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    - target: {fileID: 8500264748617126199, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      propertyPath: m_Name
+      value: FlowerExpensive
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6187745584126075731, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+    - {fileID: 294176549302048183, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 8500264748617126199, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+    - {fileID: 68238615082115173, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6988553736165480430, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1662204596}
+    - targetCorrespondingSourceObject: {fileID: 1099364019280004951, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1684801593}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7d01d464f83d5ef41b702801974a244a, type: 3}
 --- !u!1 &1754902524 stripped
@@ -1787,6 +2131,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2036350324438656582, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 149.99997
+      objectReference: {fileID: 0}
     - target: {fileID: 2887888707737766869, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
       propertyPath: m_Camera
       value: 
