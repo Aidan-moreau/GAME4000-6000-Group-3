@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7034288657209087709}
   m_Layer: 0
   m_Name: Statue2
-  m_TagString: Untagged
+  m_TagString: Statue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1155173851
   m_SortingLayer: 11
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: -22463150787872415, guid: 6d95ad312f4c9ed4784933f21edabe21, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
