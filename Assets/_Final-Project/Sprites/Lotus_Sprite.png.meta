@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6fdb17fe0cc723e4e849a28575952686
+guid: 67b9e5682dd4bce448ef7757ef03b393
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3886443268029631212
-    second: money_0
+      213: 4431191323744925803
+    second: lotus_tile_32x32_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,12 +46,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: money_0
+      name: lotus_tile_32x32_0
       rect:
         serializedVersion: 2
         x: 1
-        y: 8
+        y: 0
         width: 30
-        height: 16
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cea4d9e9f8b6fe530800000000000000
-      internalID: 3886443268029631212
+      spriteID: b68fb9f0801ce7d30800000000000000
+      internalID: 4431191323744925803
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      money_0: 3886443268029631212
+      lotus_tile_32x32_0: 4431191323744925803
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
