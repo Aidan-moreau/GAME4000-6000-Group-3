@@ -30,6 +30,7 @@ TagManager:
   - Bee
   - Boulder
   - Statue
+  - Sugar
   layers:
   - Default
   - TransparentFX
