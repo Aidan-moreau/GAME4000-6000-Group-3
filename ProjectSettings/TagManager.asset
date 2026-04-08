@@ -31,6 +31,8 @@ TagManager:
   - Boulder
   - Statue
   - Sugar
+  - Lotus
+  - JarFactory
   layers:
   - Default
   - TransparentFX

@@ -119,6 +119,21 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &80108431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8859099624615027017, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+  m_PrefabInstance: {fileID: 1006871416551905870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &86606429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8159030003348583999, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+  m_PrefabInstance: {fileID: 1006871416551905870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &135527589 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5519340053532375476, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+  m_PrefabInstance: {fileID: 1006871416551905870}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &186384449
 GameObject:
   m_ObjectHideFlags: 0
@@ -246,6 +261,31 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8036656966892549547, guid: 3c659586397fd584c9feaed8cccb566f, type: 3}
   m_PrefabInstance: {fileID: 5112557239024197865}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &236173567 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1751477202555278666, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+  m_PrefabInstance: {fileID: 1006871416551905870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &324938218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6519497591578319428, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+  m_PrefabInstance: {fileID: 1006871416551905870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &324938224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 324938218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &329823827 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7404134560348942226, guid: 899c077f9be6ec745912935cfde55fbf, type: 3}
@@ -357,6 +397,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &653254651 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4764599207265016855, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+  m_PrefabInstance: {fileID: 1006871416551905870}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &719847860
 GameObject:
   m_ObjectHideFlags: 0
@@ -972,6 +1017,11 @@ Canvas:
   m_SortingLayerID: -1144837103
   m_SortingOrder: 10
   m_TargetDisplay: 0
+--- !u!1 &1356723961 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3555579258233650208, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+  m_PrefabInstance: {fileID: 1006871416551905870}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1422205257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,6 +1697,46 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1818927096 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5643031077893176868, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+  m_PrefabInstance: {fileID: 1006871416551905870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1898992952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6392712578350863899, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+  m_PrefabInstance: {fileID: 1006871416551905870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1898992954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898992952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
+--- !u!114 &1898992955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898992952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &1998094214
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,10 +1957,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1659147992611467875, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+      propertyPath: m_text
+      value: 'Times Watered: '
+      objectReference: {fileID: 0}
+    - target: {fileID: 1751477202555278666, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3724610860148514207, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 937538308}
+    - target: {fileID: 5142747055871145050, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+      propertyPath: m_Name
+      value: Times Watered Text
+      objectReference: {fileID: 0}
     - target: {fileID: 5239422953545308248, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1951,6 +2053,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6392712578350863899, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6519497591578319428, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
       propertyPath: m_Name
       value: NewGeneralInfoPanel
@@ -1958,7 +2064,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6519497591578319428, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 324938224}
+    - targetCorrespondingSourceObject: {fileID: 6392712578350863899, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1898992955}
+    - targetCorrespondingSourceObject: {fileID: 6392712578350863899, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1898992954}
   m_SourcePrefab: {fileID: 100100000, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
 --- !u!1001 &1779193862188786598
 PrefabInstance:
@@ -1981,10 +2096,10 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WildBeehivePanel","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"FlowerPanel","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"RemoveableObstaclePanel","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EmptyTIlePanel","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BoulderPanel","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"EmptyWaterPanel","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"StatuePanel","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"BoulderPanel","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"JarFactoryPanel","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SugarWaterDispenserPanel","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"LotusPanel","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"WaterJars","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"QueenJars","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"NumStatue1","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
@@ -2000,35 +2115,35 @@ PrefabInstance:
     - target: {fileID: 435223065732856771, guid: df2df09dead1d8649a0c49139e3b1924, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1898992952}
     - target: {fileID: 435223065732856771, guid: df2df09dead1d8649a0c49139e3b1924, type: 3}
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 135527589}
     - target: {fileID: 435223065732856771, guid: df2df09dead1d8649a0c49139e3b1924, type: 3}
       propertyPath: '_data._objectReferences.Array.data[2]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 236173567}
     - target: {fileID: 435223065732856771, guid: df2df09dead1d8649a0c49139e3b1924, type: 3}
       propertyPath: '_data._objectReferences.Array.data[3]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 653254651}
     - target: {fileID: 435223065732856771, guid: df2df09dead1d8649a0c49139e3b1924, type: 3}
       propertyPath: '_data._objectReferences.Array.data[4]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 86606429}
     - target: {fileID: 435223065732856771, guid: df2df09dead1d8649a0c49139e3b1924, type: 3}
       propertyPath: '_data._objectReferences.Array.data[5]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 80108431}
     - target: {fileID: 435223065732856771, guid: df2df09dead1d8649a0c49139e3b1924, type: 3}
       propertyPath: '_data._objectReferences.Array.data[6]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1818927096}
     - target: {fileID: 435223065732856771, guid: df2df09dead1d8649a0c49139e3b1924, type: 3}
       propertyPath: '_data._objectReferences.Array.data[7]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1356723961}
     - target: {fileID: 2306699360024006957, guid: df2df09dead1d8649a0c49139e3b1924, type: 3}
       propertyPath: m_LocalPosition.x
       value: 419.26367
