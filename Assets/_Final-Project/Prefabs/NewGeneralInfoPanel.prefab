@@ -6831,6 +6831,8 @@ GameObject:
   - component: {fileID: 8171267018099007438}
   - component: {fileID: 3312580685010490204}
   - component: {fileID: 2753694955006264566}
+  - component: {fileID: 6598206166161881095}
+  - component: {fileID: 2201339170744560009}
   m_Layer: 5
   m_Name: TamedHivePanel
   m_TagString: Untagged
@@ -6892,6 +6894,36 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
     _objectReferences: []
+--- !u!114 &6598206166161881095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6392712578350863899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &2201339170744560009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6392712578350863899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!1 &6519497591578319428
 GameObject:
   m_ObjectHideFlags: 0
@@ -6904,7 +6936,8 @@ GameObject:
   - component: {fileID: 3724610860148514207}
   - component: {fileID: 1450816832622216892}
   - component: {fileID: 5067789250579468297}
-  - component: {fileID: 1963593685774863615}
+  - component: {fileID: 465132526105618087}
+  - component: {fileID: 4773686371570998589}
   m_Layer: 5
   m_Name: NewGeneralInfoPanel
   m_TagString: Untagged
@@ -6995,7 +7028,22 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!95 &1963593685774863615
+--- !u!114 &465132526105618087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6519497591578319428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!95 &4773686371570998589
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -7005,7 +7053,7 @@ Animator:
   m_GameObject: {fileID: 6519497591578319428}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f5eb512ab91199a45a8e976ef993297f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -7348,7 +7396,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 590, y: -40}
+  m_AnchoredPosition: {x: 1500, y: -40}
   m_SizeDelta: {x: 772.5, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &7338275556865107444
