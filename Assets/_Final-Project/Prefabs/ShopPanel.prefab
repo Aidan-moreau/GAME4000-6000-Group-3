@@ -1886,7 +1886,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -585, y: -40}
+  m_AnchoredPosition: {x: -590, y: -40}
   m_SizeDelta: {x: 772.5, y: 1000}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &3421116367438511673
@@ -3569,9 +3569,9 @@ GameObject:
   - component: {fileID: 5641805422270165053}
   - component: {fileID: 6961768746365681814}
   - component: {fileID: 4328574850894739587}
-  - component: {fileID: 3066832989246176813}
   - component: {fileID: 7912296367065153782}
   - component: {fileID: 6434769844201561787}
+  - component: {fileID: 2564381320201706257}
   m_Layer: 5
   m_Name: ShopPanel
   m_TagString: Untagged
@@ -3662,28 +3662,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!95 &3066832989246176813
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5428423689840655308}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &7912296367065153782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3729,6 +3707,28 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: d2e83cf85f390554289790366b46f924, type: 2}
+--- !u!95 &2564381320201706257
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5428423689840655308}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9f50ff8f3ea5f6e42b9bac6884a1f634, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &5514822875720389683
 GameObject:
   m_ObjectHideFlags: 0
