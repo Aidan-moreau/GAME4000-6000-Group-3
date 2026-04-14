@@ -1938,7 +1938,8 @@ MonoBehaviour:
       Unity.Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"InfoPanelOpenCamera","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"Unity.Cinemachine.CinemachineCamera,
       Unity.Cinemachine, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"MouseOverGrid","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"CutsceneDone","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"StatueManager","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1021228517}
     - {fileID: 266073936}
@@ -1949,6 +1950,7 @@ MonoBehaviour:
     - {fileID: 1416728141}
     - {fileID: 1706176148}
     - {fileID: 731430499}
+    - {fileID: 1049459522}
 --- !u!4 &1047267758
 Transform:
   m_ObjectHideFlags: 0
@@ -1964,6 +1966,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1049459522 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6788914178910466166, guid: 6848937b3e05f0648a5fd6fbd11ff1ae, type: 3}
+  m_PrefabInstance: {fileID: 1762160766}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1095532145 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3555579258233650208, guid: ed06a171bbe79ae41aadbc6c4b13cef6, type: 3}
