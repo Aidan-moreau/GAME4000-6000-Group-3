@@ -41,9 +41,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Final-Project/Scenes/Aidan 2.unity
     guid: 7020c325a2250bd4091c527da626e80d
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Final-Project/Scenes/Dis Scene Be Cuttin.unity
     guid: 57b87c109f2719648992640f2825e88c
+  - enabled: 1
+    path: Assets/_Final-Project/Scenes/StartScene.unity
+    guid: 01bd9618ae5fa9741a79210be4a73df3
+  - enabled: 1
+    path: Assets/_Final-Project/Scenes/Aidan - Final Haul.unity
+    guid: dec88ad50deeacb4fb2327d0a625eecb
+  - enabled: 1
+    path: Assets/_Final-Project/Scenes/YouLoseScene.unity
+    guid: c0e0d54f61583084a8de66a0cffe576e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -35,6 +35,7 @@ TagManager:
   - JarFactory
   - EmptyJar
   - JarOBees
+  - BeeKeeperHut
   layers:
   - Default
   - TransparentFX
